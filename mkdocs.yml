@@ -1,4 +1,5 @@
 site_name: FSR Informatik
+site_url: https://fsrfb4.de
 
 theme:
   language: de
@@ -13,7 +14,7 @@ theme:
       scheme: default
       primary: custom
       toggle:
-        icon: material/lightbulb 
+        icon: material/lightbulb
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -22,16 +23,19 @@ theme:
         icon: material/lightbulb-outline
         name: Switch to light mode
 
+plugins:
+  - privacy
+  - search
+
 markdown_extensions:
   - toc:
       title: Inhalte
   - attr_list
   - md_in_html
   - admonition
-
-plugins:
-  - privacy
-  - search
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 nav:
   - HOME: index.md
@@ -39,7 +43,7 @@ nav:
   - E-KEYS: ekeys.md
   - KONTAKT: kontakt.md
   - AKTUELLES: aktuelles.md
-  - APP: app.md
+  - FSR-APP: app.md
   - IMPRESSUM: impressum.md
 
 extra_css:
