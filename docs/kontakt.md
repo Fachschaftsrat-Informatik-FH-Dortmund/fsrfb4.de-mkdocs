@@ -14,14 +14,14 @@ Link: [https://discord.gg/wrfw8MMqg8](https://discord.gg/wrfw8MMqg8)
 
 <div class="grid cards" markdown>
 
-- Mail
+- **Mail**
 
     ---
 
     [info@fsrfb4.de](mailto:info@fsrfb4.de)  
     [informatik@fasta.fh-dortmund.de](mailto:informatik@fasta.fh-dortmund.de)
 
-- Anschrift
+- **Anschrift**
 
     ---
 
@@ -30,13 +30,13 @@ Link: [https://discord.gg/wrfw8MMqg8](https://discord.gg/wrfw8MMqg8)
     Emil-Figge-Straße 42  
     44227 Dortmund
 
-- Telefon
+- **Telefon**
 
     ---
 
     [0231 / 9112 6702](tel:+4923191126702)
 
-- Telefax
+- **Telefax**
 
     ---
 
