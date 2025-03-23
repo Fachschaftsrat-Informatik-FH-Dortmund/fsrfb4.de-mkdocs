@@ -15,7 +15,6 @@ p {
   background-color: var(--md-typeset-a-color) !important;
   border-radius: 5px !important;
   border-color: var(--md-typeset-a-color) !important;
-  width: 25% !important;
 }
 
 .fsr-button:hover {
