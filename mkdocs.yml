@@ -46,9 +46,9 @@ nav:
   - HOME: index.md
   - ERSTIS: erstis.md
   - E-KEYS: ekeys.md
-  - KONTAKT: kontakt.md
-  - AKTUELLES: aktuelles.md
   - FSR-APP: app.md
+  - AKTUELLES: aktuelles.md
+  - KONTAKT: kontakt.md
   - IMPRESSUM: impressum.md
 
 extra_css:

@@ -17,4 +17,4 @@ Außerdem werden wir dir den Link per Mail senden.
 
 Wir führen für euch ein Erstiheft voller nützlicher Tipps und Infos, welches seit neuestem als ein Wiki geführt und laufend erweitert wird. Wenn euch dort mal eine Information fehlen sollte, fragt gerne in den Whatsapp-Gruppen nach.
 
-[Zum Wiki](https://wiki.fsrfb4.de){ .md-button .md-button--primary .fsr-button }
+[:material-book: Zum Wiki](https://wiki.fsrfb4.de){ .md-button .md-button--primary .fsr-button }

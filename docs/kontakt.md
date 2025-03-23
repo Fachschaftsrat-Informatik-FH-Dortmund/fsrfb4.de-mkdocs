@@ -8,7 +8,7 @@ Komm' uns gern in unserem Büro in den Räumen **B.E.01** und **B.E.02** besuche
 
 Natürlich haben wir auch einen Discord-Server, wie es sich für Informatiker gehört. Hier kannst du dich mit uns und anderen Studierenden austauschen, Fragen stellen und Informationen zu unseren Veranstaltungen bekommen.
 
-[:fontawesome-brands-discord: Discord](https://discord.com/invite/wrfw8MMqg8){ .md-button .md-button--primary }
+[:fontawesome-brands-discord: Discord](https://discord.com/invite/wrfw8MMqg8){ .md-button .md-button--primary .fsr-button }
 
 ## Kontaktmöglichkeiten
 
