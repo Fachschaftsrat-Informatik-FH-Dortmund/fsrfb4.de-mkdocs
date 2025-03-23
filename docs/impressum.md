@@ -1,15 +1,18 @@
 # Impressum
 
+**Anschrift**  
 Fachhochschule Dortmund  
 Fachschaft Informatik  
 Emil-Figge-Straße 42  
 44227 Dortmund
 
-Vorsitzender des Fachschaftsrats: Jan Luca Schneider
+**Vorsitzender des Fachschaftsrats**  
+Jan Luca Schneider
 
 Verantwortlich im Sinne von § 6 MDStV und § 6 TDG.
 
-Webseitenadministrator: Jan Luca Schneider
+**Webseitenadministrator**  
+Jan Luca Schneider
 
 ## Haftungsausschluss
 
