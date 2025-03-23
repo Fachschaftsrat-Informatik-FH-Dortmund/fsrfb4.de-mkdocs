@@ -14,14 +14,14 @@ Natürlich haben wir auch einen Discord-Server, wie es sich für Informatiker ge
 
 <div class="grid cards" markdown>
 
-- **Mail**
+- :material-at: **Mail**
 
     ---
 
     [info@fsrfb4.de](mailto:info@fsrfb4.de)  
     [informatik@fasta.fh-dortmund.de](mailto:informatik@fasta.fh-dortmund.de)
 
-- **Anschrift**
+- :material-map: **Anschrift**
 
     ---
 
@@ -30,13 +30,13 @@ Natürlich haben wir auch einen Discord-Server, wie es sich für Informatiker ge
     Emil-Figge-Straße 42  
     44227 Dortmund
 
-- **Telefon**
+- :material-phone: **Telefon**
 
     ---
 
     [0231 / 9112 6702](tel:+4923191126702)
 
-- **Telefax**
+- :material-fax: **Telefax**
 
     ---
 

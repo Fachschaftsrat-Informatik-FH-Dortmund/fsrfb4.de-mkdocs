@@ -32,7 +32,7 @@
 
 <div class="grid cards" markdown>
 
-- :beer: **Stammtisch**
+- :material-beer: **Stammtisch**
 
     ---
 
@@ -45,7 +45,7 @@
     Gutenbergstraße 38  
     44139 Dortmund
 
-- :game_die: **Spieleabend**
+- :material-cards: **Spieleabend**
 
     ---
 
@@ -59,7 +59,7 @@
     Raum A.E.03  
     44227 Dortmund
 
-- :rainbow_flag::beer: **Queer Connect (Kneipenabend)**
+- <img src="../images/rainbow-beer.svg" class="twemoji"> **Queer Connect (Kneipenabend)**
 
     ---
 
@@ -73,7 +73,7 @@
     Gutenbergstraße 38  
     44139 Dortmund
 
-- :rainbow_flag::game_die: **Queer gewinnt (Spieleabend)**
+- <img src="../images/rainbow-cards.svg" class="twemoji"> **Queer gewinnt (Spieleabend)**
 
     ---
 
