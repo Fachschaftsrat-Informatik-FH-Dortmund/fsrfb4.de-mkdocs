@@ -21,3 +21,13 @@ p {
   background-color: var(--md-accent-fg-color) !important;
   border-color: var(--md-accent-fg-color) !important;
 }
+
+.photo-grid {
+  grid-template-columns: repeat(3, 1fr) !important;
+}
+
+@media (max-width: 700px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
