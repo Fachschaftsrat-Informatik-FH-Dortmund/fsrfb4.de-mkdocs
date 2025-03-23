@@ -7,7 +7,7 @@ Auf der folgenden Seite findest du eine Übersicht und Zusammenfassungen aller r
 
 Kontakt zur Ersti-Orga 2024: [informatik@fasta.fh-dortmund.de](mailto:informatik@fasta.fh-dortmund.de)
 
-## Erstsemester-Whatsapp Gruppe
+## Whatsapp-Gruppe
 
 Den Einladungslink für die von uns geleitete WhatsApp-Gruppe und viele weitere wichtige Links findest du in unserer Linksammlung. Für den Link zur WhatsApp-Gruppe musst du dich einmal bei ILIAS anmelden. Dafür benötigst du nur die Zugangsdaten, die dir von der FH schon per Post zugesandt wurden.
 
@@ -17,4 +17,4 @@ Außerdem werden wir dir den Link per Mail senden.
 
 Wir führen für euch ein Erstiheft voller nützlicher Tipps und Infos, welches seit neuestem als ein Wiki geführt und laufend erweitert wird. Wenn euch dort mal eine Information fehlen sollte, fragt gerne in den Whatsapp-Gruppen nach.
 
-Das Ersti-Wiki findest du unter [https://wiki.fsrfb4.de](https://wiki.fsrfb4.de).
+[Zum Wiki](https://wiki.fsrfb4.de){ .md-button .md-button--primary .fsr-button }

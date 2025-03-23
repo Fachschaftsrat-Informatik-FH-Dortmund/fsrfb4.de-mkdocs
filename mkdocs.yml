@@ -1,5 +1,6 @@
 site_name: FSR Informatik
 site_url: https://fsrfb4.de
+copyright: Copyright &copy; 2025 Fachschaft Informatik der Studierendenschaft der Fachhochschule Dortmund
 
 theme:
   language: de
