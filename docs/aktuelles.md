@@ -4,6 +4,10 @@
 
 [Hier](https://www.inf.fh-dortmund.de/aktuelles-ni/seite) findest du den "Aktuelles"-Feed des Fachbereichs Informatik.
 
+??? abstract "Aufklappen, um den Feed einzusehen"
+
+    <iframe src="https://www.inf.fh-dortmund.de/aktuelles-ni/seite" width="100%" height="600" title="FB4-Aktuelles" loading="lazy" frameborder="0"></iframe>
+
 ## Veranstaltungen
 
 !!! info "Info"
