@@ -10,7 +10,7 @@ Außerdem verwalten wir einen Teil des Geldes, den ihr als Semesterbeitrag zahlt
 
 ## Unsere Gesichter
 
-<div class="grid cards photo-grid" style="text-align: left !important;" markdown>
+<div class="grid cards photo-grid" markdown>
 
 - ![fotohier](images/fotohier.gif)
 

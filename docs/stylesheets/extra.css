@@ -31,3 +31,7 @@ p {
     grid-template-columns: repeat(2, 1fr) !important;
   }
 }
+
+.photo-grid ul li p {
+  text-align: left !important;
+}
