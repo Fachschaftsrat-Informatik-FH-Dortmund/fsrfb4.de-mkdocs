@@ -24,7 +24,7 @@ Außerdem verwalten wir einen Teil des Geldes, den ihr als Semesterbeitrag zahlt
     ---
 
     **Maximilian Meßmann**  
-    <abbr title="Stellvertretender">Stellv.</abbr> Vorsitzender
+    <abbr title="Stellvertretender">Stv.</abbr> Vorsitzender
 
 - ![fotohier](images/fotohier.gif)
 

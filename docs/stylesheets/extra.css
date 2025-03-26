@@ -15,6 +15,7 @@ p {
   background-color: var(--md-typeset-a-color) !important;
   border-radius: 5px !important;
   border-color: var(--md-typeset-a-color) !important;
+  user-select: none !important;
 }
 
 .fsr-button:hover {
@@ -34,4 +35,5 @@ p {
 
 .photo-grid ul li p {
   text-align: left !important;
+  hyphens: none !important;
 }
