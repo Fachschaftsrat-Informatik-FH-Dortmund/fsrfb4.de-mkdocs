@@ -5,7 +5,7 @@ copyright: Copyright &copy; 2025 Fachschaft Informatik der Studierendenschaft de
 theme:
   language: de
   favicon: images/favicon.png
-  logo: images/logo.png
+  logo: images/logo.webp
   name: material
   font:
     text: Atkinson Hyperlegible Next
