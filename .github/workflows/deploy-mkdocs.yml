@@ -36,4 +36,5 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: ${{ secrets.SSH_PORT || 22 }}
           source: "site/"
-          target: "/var/www/deine-dokumentation"
+          target: "/var/www/mkdocs-site"
+          rm: true
