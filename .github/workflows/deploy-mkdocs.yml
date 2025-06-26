@@ -28,13 +28,13 @@ jobs:
       - name: Build MkDocs site
         run: mkdocs build
 
-      - name: Deploy to server via scp
-        uses: appleboy/scp-action@v0.1.7
+      - name: Deploy to server via rsync
+        uses: easingthemes/ssh-deploy@v5.0.0
         with:
-          host: ${{ secrets.SSH_HOST }}
-          username: ${{ secrets.SSH_USERNAME }}
-          key: ${{ secrets.SSH_PRIVATE_KEY }}
-          port: ${{ secrets.SSH_PORT || 22 }}
-          source: "site/"
-          target: "/var/www/mkdocs-site"
-          rm: true
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          REMOTE_HOST: ${{ secrets.SSH_HOST }}
+          REMOTE_USER: ${{ secrets.SSH_USERNAME }}
+          REMOTE_PORT: ${{ secrets.SSH_PORT || 22 }}
+          SOURCE: "site/"
+          TARGET: "/var/www/mkdocs-site"
+          ARGS: "-rltgoDzv --delete"
