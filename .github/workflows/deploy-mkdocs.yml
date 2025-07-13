@@ -37,4 +37,4 @@ jobs:
           REMOTE_PORT: ${{ secrets.SSH_PORT || 22 }}
           SOURCE: "site/"
           TARGET: "/var/www/mkdocs-site"
-          ARGS: "-rltgoDzv --delete"
+          ARGS: "-rlgoDzv --no-times --delete"
