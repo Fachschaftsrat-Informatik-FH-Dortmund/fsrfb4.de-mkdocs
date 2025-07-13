@@ -16,7 +16,7 @@ Außerdem verwalten wir einen Teil des Geldes, den ihr als Semesterbeitrag zahlt
 
     ---
 
-    **Jan Luca Schneider**  
+    **Eden Gregor**  
     Vorsitzender
 
 - ![fotohier](images/fotohier.gif)
@@ -30,7 +30,7 @@ Außerdem verwalten wir einen Teil des Geldes, den ihr als Semesterbeitrag zahlt
 
     ---
 
-    **Richard Ruppel**  
+    **Till-Philipp Patron**  
     Finanzreferent
 
 - ![fotohier](images/fotohier.gif)
@@ -44,14 +44,21 @@ Außerdem verwalten wir einen Teil des Geldes, den ihr als Semesterbeitrag zahlt
 
     ---
 
-    **Nikos Arapas**  
+    **Leon Michael Barratt**  
     Mitglied
 
 - ![fotohier](images/fotohier.gif)
 
     ---
 
-    **Leon Michael Barratt**  
+    **Kjell Bartinger**  
+    Mitglied
+
+- ![fotohier](images/fotohier.gif)
+
+    ---
+
+    **Linus Brinkmann**  
     Mitglied
 
 - ![fotohier](images/fotohier.gif)
@@ -65,28 +72,21 @@ Außerdem verwalten wir einen Teil des Geldes, den ihr als Semesterbeitrag zahlt
 
     ---
 
-    **Eden Gregor**  
+    **Jerome-Bennet Dietrich**  
     Mitglied
 
 - ![fotohier](images/fotohier.gif)
 
     ---
 
-    **Simon Grote**  
+    **Alexander Krun**  
     Mitglied
 
 - ![fotohier](images/fotohier.gif)
 
     ---
 
-    **Lena-Maria Liehr**  
-    Mitglied
-
-- ![fotohier](images/fotohier.gif)
-
-    ---
-
-    **Till-Philipp Patron**  
+    **Marc Uwe Möllenkamp**  
     Mitglied
 
 - ![fotohier](images/fotohier.gif)
@@ -100,6 +100,13 @@ Außerdem verwalten wir einen Teil des Geldes, den ihr als Semesterbeitrag zahlt
 
     ---
 
+    **Richard Ruppel**  
+    Mitglied
+
+- ![fotohier](images/fotohier.gif)
+
+    ---
+
     **Thomas Schleicher**  
     Mitglied
 
@@ -107,7 +114,7 @@ Außerdem verwalten wir einen Teil des Geldes, den ihr als Semesterbeitrag zahlt
 
     ---
 
-    **Chen Qian Xu**  
+    **Jan Luca Schneider**  
     Mitglied
 
 </div>
