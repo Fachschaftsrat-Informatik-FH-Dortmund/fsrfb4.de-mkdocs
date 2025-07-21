@@ -10,7 +10,7 @@ Raum B.E.01/.02
 
 ## Vertreten durch
 
-Jan Luca Schneider (Vorsitzender Fachschaftsrat Informatik)
+Eden Quinn Gregor (Vorsitzender Fachschaftsrat Informatik)
 
 ## Kontakt
 
