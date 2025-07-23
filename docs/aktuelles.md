@@ -2,16 +2,15 @@
 
 ## Aktuelles - FB Informatik
 
-??? abstract "Aufklappen, um den Feed einzusehen"
+??? abstract "Aufklappen, um den Feed einzusehen *(stellt eine Verbindung zu www.inf.fh-dortmund.de her)*"
 
     <iframe src="https://www.inf.fh-dortmund.de/aktuelles-ni/seite" width="100%" height="600" title="FB4-Aktuelles" loading="lazy" frameborder="0"></iframe>
 
 ## Kalender
 
-??? abstract "Aufklappen, um den Kalender einzusehen"
+??? abstract "Aufklappen, um den Kalender einzusehen *(stellt eine Verbindung zu embed.styledcalendar.com, fonts.googleapis.com und fonts.gstatic.com her)*"
 
     <iframe src="https://embed.styledcalendar.com/#wAsG4H2DpME8AHhV8LJH" width="100%" height="710px" frameborder="0" loading="lazy"></iframe>
-
 
 ## Veranstaltungen
 
