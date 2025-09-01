@@ -36,10 +36,10 @@ Den Einladungslink für die von uns geleiteten WhatsApp-Gruppen und viele weiter
 
 Außerdem werden wir dir den Link per Mail senden.
 
-<!--
+
 ## Erstiheft (online)
 
 Wir führen für euch ein Erstiheft voller nützlicher Tipps und Infos, welches seit neuestem als ein Wiki geführt und laufend erweitert wird. Wenn euch dort mal eine Information fehlen sollte, fragt gerne in den Whatsapp-Gruppen nach.
 
 [:material-book: Zum Wiki](https://wiki.fsrfb4.de){ .md-button .md-button--primary .fsr-button }
--->
+
