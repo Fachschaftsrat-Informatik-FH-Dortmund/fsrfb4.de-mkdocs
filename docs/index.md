@@ -25,7 +25,7 @@ Außerdem verwalten wir einen Teil des Geldes, den ihr als Semesterbeitrag zahlt
     ---
 
     **Maximilian Meßmann**  
-    <abbr title="Stellvertretender">Stv.</abbr> Vorsitzender
+    <abbr title="Stellvertretender">Stv.</abbr> Vorsitzender, IT
 
 - ![fotohier](images/till.jpg)
 
@@ -39,7 +39,7 @@ Außerdem verwalten wir einen Teil des Geldes, den ihr als Semesterbeitrag zahlt
     ---
 
     **Tobias Bläser**  
-    Kassenwart, Grillpräsident, Discord Mod
+    Kassenwart, Grillpräsident, Discord Mod, IT
 
 - ![fotohier](images/fotohier.gif)
 
@@ -116,7 +116,7 @@ Außerdem verwalten wir einen Teil des Geldes, den ihr als Semesterbeitrag zahlt
     ---
 
     **Jan Luca Schneider**  
-    Mitglied
+    Mitglied, IT
 
 - ![fotohier](images/fotohier.gif)
 
