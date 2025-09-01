@@ -4,7 +4,7 @@
 [:fontawesome-brands-discord: Discord](https://discord.com/invite/wrfw8MMqg8){ .md-button .md-button--primary .fsr-button }
 
 ## Wer wir sind
-
+![fotohier](images/gruppenfoto2025.JPG)
 Wir sind eure durch euch gewählten Studierendenvertreter\*innen. Als Fachschaftsrat vertreten wir eure Interessen gegenüber dem Fachbereich, der Hochschule, der restlichen Studierendenschaft und nach außen. Wir stehen euch bei Problemen und Fragen zur Seite und legen uns für euch zur Not auch gern mit dem\*der ein oder anderen Professor\*in an.  
 Außerdem verwalten wir einen Teil des Geldes, den ihr als Semesterbeitrag zahlt, um damit regelmäßige und besondere Events für euch durchzuführen.
 
@@ -26,7 +26,7 @@ Außerdem verwalten wir einen Teil des Geldes, den ihr als Semesterbeitrag zahlt
     **Maximilian Meßmann**  
     <abbr title="Stellvertretender">Stv.</abbr> Vorsitzender
 
-- ![fotohier](images/fotohier.gif)
+- ![fotohier](images/till.jpg)
 
     ---
 
@@ -37,8 +37,8 @@ Außerdem verwalten wir einen Teil des Geldes, den ihr als Semesterbeitrag zahlt
 
     ---
 
-    **Tobias Guido Bläser**  
-    Kassenwart
+    **Tobias Bläser**  
+    Kassenwart, Discord Mod
 
 - ![fotohier](images/fotohier.gif)
 
