@@ -12,6 +12,21 @@ Kontakt zur Ersti-Orga 2025: [informatik@fasta.fh-dortmund.de](mailto:informatik
 
     Die nachfolgenden Informationen sind ggf. noch nicht vollständig und werden demnächst erweitert. Es lohnt sich also, diese Seite mehrfach zu überprüfen.
 
+## Veranstaltungsplan
+Aboniert gerne zusätzlich unseren Kalender welcher auf [Aktuelles](https://fsrfb4.de/aktuelles/) zu finden ist :D
+
+| Datum       | Event              | Uhrzeit       | Ort                  | Beschreibung |
+|-------------|--------------------|---------------|----------------------|--------------|
+| 05.09.      | Erstitag           | ab 10 Uhr     | Treffpunkt Foyer     | Infos zum Studium, Grillen, Campusführung |
+| 22.09.      | Spieleabend        | 16–22 Uhr     | A.E.03               | Abend mit Brett- und Kartenspielen sowie Pizza-Snack |
+| 23.09.      | Campusolympiade    | 15–18 Uhr     | Treffpunkt Foyer     | Teamwettkämpfe rund um den Campus |
+| 23.09.      | Karaoke            | 19–22 Uhr     | Innolab              | Karaoke-Abend für alle Gesangsfreudigen |
+| 24.09.      | Filmenachmittag    | 16–18 Uhr     | A.E.01               | inkl. Popcorn und Nachos gegen kleinen Preis |
+| 24.09.      | Kneipentour        | ab 18 Uhr     | Treffpunkt (tbd)     | Kneipen in Dortmund gemeinsam erkunden |
+| 25.09.      | Flunken im Westpark| ab 15 Uhr     | Treffpunkt Westpark  | Outdoor-Spiel "Flunkyball" im Westpark |
+| 26.09.      | Gamingabend        | 16–22 Uhr     | Innolab              | Konsolen- und PC-Gaming in einem comfy High-Tech Raum |
+
+
 ## Erstitag
 
 Unser Erstitag findet dieses Jahr am 5. September 2025 statt. Hier werden wir euch über das Studium an der Fachhochschule Dortmund, verschiedene weitere Angebote für Studierende und alles weitere Wissenswerte informieren.
@@ -20,11 +35,16 @@ Im Anschluss an ein gemeinsames Grillen führen wir euch in Gruppen über den Ca
 
 Zuletzt geben euch erfahrene Studierende einen Einblick in euren Studiengang.
 
+## Vorkurse (nicht von uns Organisiert)
+Vorkurse sind super dafür geeignet alles wissen nochmal aufzufrischen. Außerdem lernt man so sehr einfach neue Freunde an der FH kennen. Nehmt sie deswegen auf jeden Fall wahr! _(Ich konnte bei den Vorkursen viele Freundschaften knüpfen die mich bis heute begleiten. ALSO GEHT HIN!!11elf!1! -Tobi)_ 
+
 ## Erstiwoche
 
 Vom 22. bis 26. September 2025 veranstalten wir für euch eine Erstiwoche. Bei einer Reihe verschiedener Events habt ihr die Möglichkeit, euch gegenseitig kennenzulernen, erste Kontakte zu knüpfen und gemeinsam Spaß zu haben.
 
-Wie das Angebot in der Erstiwoche genau aussieht, erfahrt ihr noch. Wir versuchen aber, ein Programm auf die Beine zu stellen, das für möglichst viele von euch interessant und ansprechend ist.
+Wir haben mit viel Herzensblut und Liebe für euch ein Programm zusammengestellt, das (hoffentlich) für möglichst viele von euch ansprechend ist. _(Campusolympiade ist mein Highlight -Tobi)_ 
+
+
 
 ## Whatsapp-Gruppe
 
@@ -41,5 +61,5 @@ Außerdem werden wir dir den Link per Mail senden.
 
 Wir führen für euch ein Erstiheft voller nützlicher Tipps und Infos, welches seit neuestem als ein Wiki geführt und laufend erweitert wird. Wenn euch dort mal eine Information fehlen sollte, fragt gerne in den Whatsapp-Gruppen nach.
 
-[:material-book: Zum Wiki](https://wiki.fsrfb4.de){ .md-button .md-button--primary .fsr-button }
+[:material-book: Zum Erstiheft (FSR-Wiki)](https://wiki.fsrfb4.de/books/erstiheft){ .md-button .md-button--primary .fsr-button }
 
