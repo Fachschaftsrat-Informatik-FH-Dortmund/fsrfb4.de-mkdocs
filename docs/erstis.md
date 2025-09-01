@@ -13,6 +13,7 @@ Kontakt zur Ersti-Orga 2025: [informatik@fasta.fh-dortmund.de](mailto:informatik
     Die nachfolgenden Informationen sind ggf. noch nicht vollständig und werden demnächst erweitert. Es lohnt sich also, diese Seite mehrfach zu überprüfen.
 
 ## Veranstaltungsplan
+Aboniert gerne zusätzlich unseren Kalender welcher auf [Aktuelles](https://fsrfb4.de/aktuelles/) zu finden ist :D
 
 | Datum       | Event              | Uhrzeit       | Ort                  | Beschreibung |
 |-------------|--------------------|---------------|----------------------|--------------|
