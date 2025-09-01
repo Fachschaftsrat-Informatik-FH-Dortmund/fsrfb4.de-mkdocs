@@ -31,14 +31,14 @@ Außerdem verwalten wir einen Teil des Geldes, den ihr als Semesterbeitrag zahlt
     ---
 
     **Till-Philipp Patron**  
-    Finanzreferent
+    Finanzreferent, Pommespräsident
 
 - ![TechwearTobi](images/techtobi.jpg)
 
     ---
 
     **Tobias Bläser**  
-    Kassenwart, Discord Mod
+    Kassenwart, Grillpräsident, Discord Mod
 
 - ![fotohier](images/fotohier.gif)
 
