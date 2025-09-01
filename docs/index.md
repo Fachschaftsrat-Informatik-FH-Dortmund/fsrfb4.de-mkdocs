@@ -13,7 +13,7 @@ Außerdem verwalten wir einen Teil des Geldes, den ihr als Semesterbeitrag zahlt
 
 <div class="grid cards photo-grid" markdown>
 
-- ![fotohier](images/fotohier.gif)
+- ![fotohier](images/eden.jpg)
 
     ---
 
