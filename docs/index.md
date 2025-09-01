@@ -33,7 +33,7 @@ Außerdem verwalten wir einen Teil des Geldes, den ihr als Semesterbeitrag zahlt
     **Till-Philipp Patron**  
     Finanzreferent
 
-- ![fotohier](images/fotohier.gif)
+- ![TechwearTobi](images/techtobi.jpg)
 
     ---
 
