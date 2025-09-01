@@ -36,13 +36,13 @@ Im Anschluss an ein gemeinsames Grillen führen wir euch in Gruppen über den Ca
 Zuletzt geben euch erfahrene Studierende einen Einblick in euren Studiengang.
 
 ## Vorkurse (nicht von uns Organisiert)
-Vorkurse sind super dafür geeignet alles wissen nochmal aufzufrischen. Außerdem lernt man so sehr einfach neue Freunde an der FH kennen. Nehmt sie deswegen auf jeden Fall wahr! _(Ich bei den Vorkursen viele Freundschaften knüpfen die mich bis heute begleiten. ALSO GEHT HIN!!11elf!1! -Tobi)_ 
+Vorkurse sind super dafür geeignet alles wissen nochmal aufzufrischen. Außerdem lernt man so sehr einfach neue Freunde an der FH kennen. Nehmt sie deswegen auf jeden Fall wahr! _(Ich konnte bei den Vorkursen viele Freundschaften knüpfen die mich bis heute begleiten. ALSO GEHT HIN!!11elf!1! -Tobi)_ 
 
 ## Erstiwoche
 
 Vom 22. bis 26. September 2025 veranstalten wir für euch eine Erstiwoche. Bei einer Reihe verschiedener Events habt ihr die Möglichkeit, euch gegenseitig kennenzulernen, erste Kontakte zu knüpfen und gemeinsam Spaß zu haben.
 
-Wir haben mit viel Herzensblut und Liebe für euch ein Programm zusammengestellt, das (hoffentlich) für möglichst viele von euch Ansprechend ist. _(Campusolympiade ist mein Highlight -Tobi)_ 
+Wir haben mit viel Herzensblut und Liebe für euch ein Programm zusammengestellt, das (hoffentlich) für möglichst viele von euch ansprechend ist. _(Campusolympiade ist mein Highlight -Tobi)_ 
 
 
 
