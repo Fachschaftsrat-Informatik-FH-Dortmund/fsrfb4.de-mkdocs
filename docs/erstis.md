@@ -9,12 +9,18 @@ Auf der folgenden Seite findest du eine Übersicht und Zusammenfassungen aller r
 Kontakt zur Ersti-Orga 2025: [informatik@fasta.fh-dortmund.de](mailto:informatik@fasta.fh-dortmund.de)
 
 !!! info "Info"
-
     Die nachfolgenden Informationen sind ggf. noch nicht vollständig und werden demnächst erweitert. Es lohnt sich also, diese Seite mehrfach zu überprüfen.
 
+!!! info "Patchnotes 04.09.2025"
+     Ticketsystem für Erstiphase und WhatApp-Gruppen erstellt und verlinkt. Siehe [Erstis](https://fsrfb4.de/erstis/)
+
+!!! info "Patchnotes 01.09.2025"
+     Der Veranstaltungsplan für die Erstis wurde veröffentlicht. Siehe [Erstis](https://fsrfb4.de/erstis/)
+     
 ## Veranstaltungsplan
 Aboniert gerne zusätzlich unseren Kalender welcher auf [Aktuelles](https://fsrfb4.de/aktuelles/) zu finden ist :D
-
+!!!warning "Achtung!"
+    Ihr müsst euch ein kostenloses Ticket im [Ticketportal](https://ticket.fsrfb4.de/ersti) bestellen damit wir mit euch planen können. Storniert es bitte falls ihr doch nicht kommt. 
 | Datum       | Event              | Uhrzeit       | Ort                  | Beschreibung |
 |-------------|--------------------|---------------|----------------------|--------------|
 | 05.09.      | Erstitag           | ab 10 Uhr     | Treffpunkt Foyer     | Infos zum Studium, Grillen, Campusführung |
@@ -48,13 +54,11 @@ Wir haben mit viel Herzensblut und Liebe für euch ein Programm zusammengestellt
 
 ## Whatsapp-Gruppe
 
-!!! danger "Achtung"
+Den Einladungslink für die von uns geleiteten WhatsApp-Gruppen und viele weitere wichtige Links findest du in unserer [Linksammlung](http://fsrfb4.de/links).
 
-    Die WhatsApp-Gruppen sind zum aktuellen Zeitpunkt noch nicht fertig eingerichtet. Bitte richtet euch im Zweifel nach der Mail, die wir euch senden werden.
-
-Den Einladungslink für die von uns geleiteten WhatsApp-Gruppen und viele weitere wichtige Links findest du in unserer Linksammlung. Für den Link zur WhatsApp-Gruppe musst du dich einmal bei ILIAS anmelden. Dafür benötigst du nur die Zugangsdaten, die dir von der FH schon per Post zugesandt wurden.
-
+<!-- Für den Link zur WhatsApp-Gruppe musst du dich einmal bei ILIAS anmelden. Dafür benötigst du nur die Zugangsdaten, die dir von der FH schon per Post zugesandt wurden. 
 Außerdem werden wir dir den Link per Mail senden.
+ -->
 
 
 ## Erstiheft (online)
@@ -63,3 +67,5 @@ Wir führen für euch ein Erstiheft voller nützlicher Tipps und Infos, welches 
 
 [:material-book: Zum Erstiheft (FSR-Wiki)](https://wiki.fsrfb4.de/books/erstiheft){ .md-button .md-button--primary .fsr-button }
 
+## Open Questions?
+Noch offene Fragen? Dann joint gerne unserem [Discord Server](https://discord.gg/C3hQfvRHRg) < 3
