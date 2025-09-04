@@ -9,12 +9,14 @@ Auf der folgenden Seite findest du eine Übersicht und Zusammenfassungen aller r
 Kontakt zur Ersti-Orga 2025: [informatik@fasta.fh-dortmund.de](mailto:informatik@fasta.fh-dortmund.de)
 
 !!! info "Info"
-
     Die nachfolgenden Informationen sind ggf. noch nicht vollständig und werden demnächst erweitert. Es lohnt sich also, diese Seite mehrfach zu überprüfen.
+
 !!! info "Patchnotes 04.09.2025"
      Ticketsystem für Erstiphase und WhatApp-Gruppen erstellt und verlinkt. Siehe [Erstis](https://fsrfb4.de/erstis/)
+
 !!! info "Patchnotes 01.09.2025"
      Der Veranstaltungsplan für die Erstis wurde veröffentlicht. Siehe [Erstis](https://fsrfb4.de/erstis/)
+     
 ## Veranstaltungsplan
 Aboniert gerne zusätzlich unseren Kalender welcher auf [Aktuelles](https://fsrfb4.de/aktuelles/) zu finden ist :D
 !!!Warning "Achtung!"
