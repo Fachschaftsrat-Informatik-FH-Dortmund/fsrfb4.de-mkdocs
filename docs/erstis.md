@@ -10,7 +10,7 @@ Kontakt zur Ersti-Orga 2025: [informatik@fasta.fh-dortmund.de](mailto:informatik
 
 
 !!! info "Patchnotes 06.09.2025"
-     Die Präsentation vom Erstitag wurde hoch geladen. Siehe [Download](https://fh-dortmund.sciebo.de/s/Pk8m5eH74Z8BnpF)
+     Die Präsentation vom Erstitag wurde hochgeladen. Siehe [Download](https://fh-dortmund.sciebo.de/s/Pk8m5eH74Z8BnpF)
 
 !!! info "Patchnotes 04.09.2025"
      Ticketsystem für Erstiphase und WhatApp-Gruppen erstellt und verlinkt. Siehe [Erstis](https://fsrfb4.de/erstis/)
