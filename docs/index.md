@@ -2,11 +2,14 @@
 
 [:fontawesome-brands-instagram: Instagram](https://www.instagram.com/fachschaftsrat_fb4){ .md-button .md-button--primary .fsr-button }
 [:fontawesome-brands-discord: Discord](https://discord.gg/C3hQfvRHRg){ .md-button .md-button--primary .fsr-button }
+
+
+!!! info "Patchnotes 06.09.2025"
+     Die Präsentation vom Erstitag wurde hochgeladen. Siehe [Download](https://fh-dortmund.sciebo.de/s/Pk8m5eH74Z8BnpF)
+
 !!! info "Patchnotes 04.09.2025"
      Ticketsystem für Erstiphase und WhatApp-Gruppen erstellt und verlinkt. Siehe [Erstis](https://fsrfb4.de/erstis/)
 
-!!! info "Patchnotes 01.09.2025"
-     Der Veranstaltungsplan für die Erstis wurde veröffentlicht. Siehe [Erstis](https://fsrfb4.de/erstis/)
 ## Wer wir sind
 ![fotohier](images/gruppenfoto2025.JPG)
 Wir sind eure durch euch gewählten Studierendenvertreter\*innen. Als Fachschaftsrat vertreten wir eure Interessen gegenüber dem Fachbereich, der Hochschule, der restlichen Studierendenschaft und nach außen. Wir stehen euch bei Problemen und Fragen zur Seite und legen uns für euch zur Not auch gern mit dem\*der ein oder anderen Professor\*in an.  

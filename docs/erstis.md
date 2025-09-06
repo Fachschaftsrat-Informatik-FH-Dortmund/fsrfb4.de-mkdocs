@@ -8,14 +8,13 @@ Auf der folgenden Seite findest du eine Übersicht und Zusammenfassungen aller r
 
 Kontakt zur Ersti-Orga 2025: [informatik@fasta.fh-dortmund.de](mailto:informatik@fasta.fh-dortmund.de)
 
-!!! info "Info"
-    Die nachfolgenden Informationen sind ggf. noch nicht vollständig und werden demnächst erweitert. Es lohnt sich also, diese Seite mehrfach zu überprüfen.
+
+!!! info "Patchnotes 06.09.2025"
+     Die Präsentation vom Erstitag wurde hochgeladen. Siehe [Download](https://fh-dortmund.sciebo.de/s/Pk8m5eH74Z8BnpF)
 
 !!! info "Patchnotes 04.09.2025"
      Ticketsystem für Erstiphase und WhatApp-Gruppen erstellt und verlinkt. Siehe [Erstis](https://fsrfb4.de/erstis/)
 
-!!! info "Patchnotes 01.09.2025"
-     Der Veranstaltungsplan für die Erstis wurde veröffentlicht. Siehe [Erstis](https://fsrfb4.de/erstis/)
      
 ## Veranstaltungsplan
 Aboniert gerne zusätzlich unseren Kalender welcher auf [Aktuelles](https://fsrfb4.de/aktuelles/) zu finden ist :D
@@ -28,7 +27,7 @@ Aboniert gerne zusätzlich unseren Kalender welcher auf [Aktuelles](https://fsrf
 | 23.09.      | Campusolympiade    | 15–18 Uhr     | Treffpunkt Foyer     | Teamwettkämpfe rund um den Campus |
 | 23.09.      | Karaoke            | 19–22 Uhr     | Innolab              | Karaoke-Abend für alle Gesangsfreudigen |
 | 24.09.      | Filmenachmittag    | 16–18 Uhr     | A.E.01               | inkl. Popcorn und Nachos gegen kleinen Preis |
-| 24.09.      | Kneipentour        | ab 18 Uhr     | Treffpunkt (tbd)     | Kneipen in Dortmund gemeinsam erkunden |
+| 24.09.      | Kneipentour        | ab 18 Uhr     | Treffpunkt Foyer     | Kneipen in Dortmund gemeinsam erkunden |
 | 25.09.      | Flunken im Westpark| ab 15 Uhr     | Treffpunkt Westpark  | Outdoor-Spiel "Flunkyball" im Westpark |
 | 26.09.      | Gamingabend        | 16–22 Uhr     | Innolab              | Konsolen- und PC-Gaming in einem comfy High-Tech Raum |
 
@@ -40,6 +39,8 @@ Unser Erstitag findet dieses Jahr am 5. September 2025 statt. Hier werden wir eu
 Im Anschluss an ein gemeinsames Grillen führen wir euch in Gruppen über den Campus und zeigen euch die wichtigsten Orte rund um das Informatik-Gebäude.
 
 Zuletzt geben euch erfahrene Studierende einen Einblick in euren Studiengang.
+!!! tip "Zum Nachlesen"
+    Die Präsentation vom Erstitag findet ihr hier: [Sciebo Link](https://fh-dortmund.sciebo.de/s/Pk8m5eH74Z8BnpF)
 
 ## Vorkurse (nicht von uns Organisiert)
 Vorkurse sind super dafür geeignet alles wissen nochmal aufzufrischen. Außerdem lernt man so sehr einfach neue Freunde an der FH kennen. Nehmt sie deswegen auf jeden Fall wahr! _(Ich konnte bei den Vorkursen viele Freundschaften knüpfen die mich bis heute begleiten. ALSO GEHT HIN!!11elf!1! -Tobi)_ 
