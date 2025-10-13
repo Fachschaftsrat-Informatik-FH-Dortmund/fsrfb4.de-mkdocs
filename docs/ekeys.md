@@ -4,11 +4,11 @@ An unserem Fachbereich gibt es die Möglichkeit, sich für die Emil-Figge-Str. 4
 
 ## E-Key beantragen
 
-Wenn du auch einen E-Key erhalten möchtest, trage dich bitte mit deiner FH-Mailadresse in die [Warteliste in unserem ILIAS-Kurs](https://www.ilias.fh-dortmund.de/ilias/goto_ilias-fhdo_svy_1348559.html) ein.
+Wenn du auch einen E-Key erhalten möchtest, musst du einen Termin vereinbaren. Das geht ganz einfach unter diesem Link: [cal.com/fsrfb4](https://cal.com/fsrfb4)
 
 ## E-Key abholen
 
-Sobald ein E-Key für dich verfügbar wird, benachrichtigen wir dich und machen einen Termin zur Übergabe aus. Zu diesem bringst du 25,00 € als Pfandgeld und deinen Studierendenausweis mit. Zusätzlich musst du noch einen [Vertrag zur E-Key-Ausgabe](https://ekey.fsrfb4.de/) unterschreiben, das geht aber auch bei uns vor Ort.
+Zu dem Termin bringst du 25,00 € als Pfandgeld und deinen Studierendenausweis mit. Zusätzlich musst du noch einen [Vertrag zur E-Key-Ausgabe](https://ekey.fsrfb4.de/) vor Ort bei uns unterschreiben (du musst nichts vorbereiten).
 
 ## Ausleihe verlängern
 
@@ -19,4 +19,4 @@ Wenn du einen E-Key ausgeliehen hast, bekommst du jedes Semester eine Mail von u
 
 ## E-Key zurückgeben
 
-Solltest du den E-Key nicht mehr nutzen oder vor dem Ende deines Studiums stehen, kannst du deinen E-Key jederzeit wieder zurückgeben und das Pfandgeld zurückbekommen. So hilfst du auch dabei, anderen Studierenden einen E-Key zu ermöglichen, die noch auf der Warteliste stehen.
+Solltest du den E-Key nicht mehr nutzen oder vor dem Ende deines Studiums stehen, kannst du einen [Termin buchen](https://cal.com/fsrfb4) und den E-Key wieder zurückgeben und das Pfandgeld zurückbekommen. So hilfst du auch dabei, anderen Studierenden einen E-Key zu ermöglichen.

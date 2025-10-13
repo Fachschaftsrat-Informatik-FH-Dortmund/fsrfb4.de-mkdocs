@@ -42,4 +42,10 @@ Natürlich haben wir auch einen Discord-Server, wie es sich für Informatiker ge
 
     [0231 / 9112 6702](tel:+4923191126702)
 
+- :material-calendar: **E-Key Sprechstunde**
+
+    ---
+
+    [cal.com/fsrfb4](https://cal.com/fsrfb4)
+
 </div>
