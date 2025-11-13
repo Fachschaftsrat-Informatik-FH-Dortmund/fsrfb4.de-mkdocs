@@ -28,7 +28,7 @@ Unser FSR-Kalender enthält die verschiedenen Events, die wir für euch veransta
 
     ---
 
-    Der FSR Informatik hält seine Sitzungen im Normalfall alle zwei bis vier Wochen dienstags oder mittwochs ab. Die Einladungen zu den Sitzungen und Protokolle findest du in unserem [ILIAS-Kurs](https://www.ilias.fh-dortmund.de/ilias/goto_ilias-fhdo_fold_1319348.html). Außerdem tragen wir die Termine in unseren [Kalender](#kalender) ein.
+    Der FSR Informatik hält seine Sitzungen im Normalfall alle zwei bis vier Wochen dienstags oder mittwochs ab. Die Einladungen zu den Sitzungen und Protokolle findest du in unserem [ILIAS-Kurs](https://www.ilias.fh-dortmund.de/ilias/goto_ilias-fhdo_fold_1319348.html). Außerdem tragen wir die Termine in unseren [Kalender](#fsr-kalender) ein.
 
 </div>
 
