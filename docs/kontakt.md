@@ -8,7 +8,7 @@ Komm' uns gern in unserem Büro in den Räumen **B.E.01** und **B.E.02** besuche
 
 Natürlich haben wir auch einen Discord-Server, wie es sich für Informatiker gehört. Hier kannst du dich mit uns und anderen Studierenden austauschen, Fragen stellen und Informationen zu unseren Veranstaltungen bekommen.
 
-[:fontawesome-brands-discord: Discord](https://discord.gg/C3hQfvRHRg){ .md-button .md-button--primary .fsr-button }
+[:fontawesome-brands-discord: Discord](https://fsrfb4.de/discord){ .md-button .md-button--primary .fsr-button }
 
 ## Kontaktmöglichkeiten
 
@@ -18,8 +18,13 @@ Natürlich haben wir auch einen Discord-Server, wie es sich für Informatiker ge
 
     ---
 
-    [info@fsrfb4.de](mailto:info@fsrfb4.de)  
-    [informatik@fasta.fh-dortmund.de](mailto:informatik@fasta.fh-dortmund.de)
+    <a href="#" onclick="window.location.href='mailto:' + 'info' + '&#64;' + 'fsrfb4.de'; return false;">
+    info&#64;fsrfb4.de
+    </a>
+    <br>
+    <a href="#" onclick="window.location.href='mailto:' + 'informatik' + '&#64;' + 'fasta.fh-dortmund.de'; return false;">
+    informatik&#64;fasta.fh-dortmund.de
+    </a>
 
 - :material-map: **Anschrift**
 
