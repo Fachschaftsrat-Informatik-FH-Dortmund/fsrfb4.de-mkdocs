@@ -58,33 +58,28 @@
     Raum A.E.03  
     44227 Dortmund
 
-- <img src="../images/rainbow-beer.svg" class="twemoji"> **Queer Connect (Kneipenabend)**
+- <img src="../images/icon/rainbow-beer.svg" class="twemoji"> **Queer Connect**
 
     ---
 
-    Jeden letzten Dienstag  
-    in geraden Monaten  
-    Beginn 19:30 Uhr
-
-    ---
-
-    Platz an der Sonne  
-    Gutenbergstraße 38  
-    44139 Dortmund
-
-- <img src="../images/rainbow-cards.svg" class="twemoji"> **Queer gewinnt (Spieleabend)**
-
-    ---
-
-    Jeden letzten Dienstag  
-    in ungeraden Monaten  
-    Beginn 18:00 Uhr
+    Jeden letzten Dienstag   
+    Beginn 16:00 Uhr
 
     ---
 
     Fachhochschule Dortmund  
     Emil-Figge-Straße 42  
-    Raum A.E.03  
+    Raum B.E.01  
     44227 Dortmund
+
+- <img src="../images/icon/mic.svg" class="twemoji">/ <img src="../images/icon/material-theaters.svg" class="twemoji"> **Karaoke/Filmabend**
+
+    ---
+
+    Keine wirklich regelmäßigen Termine, beachtet eure E-Mails!
+
+    ---
+
+    Fragt uns doch gerne, wenn ihr darauf bock hättet :)
 
 </div>

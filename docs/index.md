@@ -1,14 +1,7 @@
 # Fachschaftsrat Informatik
 
 [:fontawesome-brands-instagram: Instagram](https://www.instagram.com/fachschaftsrat_fb4){ .md-button .md-button--primary .fsr-button }
-[:fontawesome-brands-discord: Discord](https://discord.gg/C3hQfvRHRg){ .md-button .md-button--primary .fsr-button }
-
-
-!!! info "Patchnotes 06.09.2025"
-     Die Präsentation vom Erstitag wurde hochgeladen. Siehe [Download](https://fh-dortmund.sciebo.de/s/Pk8m5eH74Z8BnpF)
-
-!!! info "Patchnotes 04.09.2025"
-     Ticketsystem für Erstiphase und WhatApp-Gruppen erstellt und verlinkt. Siehe [Erstis](https://fsrfb4.de/erstis/)
+[:fontawesome-brands-discord: Discord](https://fsrfb4.de/discord){ .md-button .md-button--primary .fsr-button }
 
 ## Wer wir sind
 
