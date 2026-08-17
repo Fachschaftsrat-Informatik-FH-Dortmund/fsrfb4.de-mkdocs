@@ -4,7 +4,8 @@
 [:fontawesome-brands-discord: Discord](https://fsrfb4.de/discord){ .md-button .md-button--primary .fsr-button }
 
 ## Wer wir sind
-![fotohier](images/gruppenfoto2025.JPG)
+
+(TODO: neues Foto machen!)
 Wir sind eure durch euch gewählten Studierendenvertreter\*innen. Als Fachschaftsrat vertreten wir eure Interessen gegenüber dem Fachbereich, der Hochschule, der restlichen Studierendenschaft und nach außen. Wir stehen euch bei Problemen und Fragen zur Seite und legen uns für euch zur Not auch gern mit dem\*der ein oder anderen Professor\*in an.  
 Außerdem verwalten wir einen Teil des Geldes, den ihr als Semesterbeitrag zahlt, um damit regelmäßige und besondere Events für euch durchzuführen.
 
@@ -23,92 +24,22 @@ Außerdem verwalten wir einen Teil des Geldes, den ihr als Semesterbeitrag zahlt
 
     ---
 
-    **Maximilian Meßmann** [:fontawesome-brands-github:](https://github.com/desvaters)  
-    <abbr title="Stellvertretender">Stv.</abbr> Vorsitzender, IT
-
-- ![fotohier](images/till.jpg)
-
-    ---
-
-    **Till-Philipp Patron**  
-    Finanzreferent, Pommespräsident
-
-- ![TechwearTobi](images/techtobi.jpg)
-
-    ---
-
-    **Tobias Bläser** [:fontawesome-brands-github:](https://github.com/tobi-blazor) 
-    Kassenwart, Grillpräsident, Discord Mod, IT 
+    **River Barratt** 
+    <abbr title="Stellvertretender">Stv.</abbr> Vorsitzender, Queer-connect-orga, IT
 
 - ![fotohier](images/fotohier.gif)
 
     ---
 
-    **Leon Michael Barratt**  
-    Mitglied
+    **Cleo Konsorski**  
+    Finanzreferentin, Queer-connect-orga
 
 - ![fotohier](images/fotohier.gif)
 
     ---
 
-    **Kjell Bartinger**  
-    Mitglied
-
-- ![fotohier](images/fotohier.gif)
-
-    ---
-
-    **Linus Brinkmann**  
-    Mitglied
-
-- ![fotohier](images/fotohier.gif)
-
-    ---
-
-    **Marie-Cecile Brodda**  
-    Mitglied
-
-- ![fotohier](images/fotohier.gif)
-
-    ---
-
-    **Jerome-Bennet Dietrich**  
-    Mitglied
-
-- ![fotohier](images/fotohier.gif)
-
-    ---
-
-    **Alexander Krun**  
-    Mitglied
-
-- ![fotohier](images/marc.jpg)
-
-    ---
-
-    **Marc Uwe Möllenkamp**  
-    Mitglied
-
-- ![fotohier](images/fotohier.gif)
-
-    ---
-
-    **Nilofar Rahmati**  
-    Mitglied
-
-- ![fotohier](images/fotohier.gif)
-
-    ---
-
-    **Richard Ruppel** [:fontawesome-brands-github:](https://github.com/kjuno) 
-    Mitglied
-
-- ![fotohier](images/fotohier.gif)
-
-    ---
-
-    **Thomas Schleicher**  
-    Mitglied
+    **Maurice "Moro" Lewerentz**  
+    Kassenwart
 
 - ![fotohier](images/fotohier.gif)
 
@@ -117,11 +48,81 @@ Außerdem verwalten wir einen Teil des Geldes, den ihr als Semesterbeitrag zahlt
     **Jan Luca Schneider** [:fontawesome-brands-github:](https://github.com/graylayy) 
     Mitglied, IT
 
+- ![Tobi Foto](images/techtobi.jpg)
+    ---
+
+    **Tobias Guido Bläser** [:fontawesome-brands-github:](https://github.com/tobi-blazor) 
+    Grillpräsident, IT 
+
+- ![fotohier](images/fotohier.gif)
+
+    ---
+
+    **Marie-Cecile Brodda**  
+    Mitglied, Stammtisch-orga
+
+- ![fotohier](images/fotohier.gif)
+
+    ---
+
+    **Maximilian "Maxi" Meßmann**  
+    Mitglied
+
+
+- ![fotohier](images/fotohier.gif)
+
+    ---
+
+    **Tobias "Tobi der Ⅱ" Bötzel**  
+    Mitglied, Spieleabend(Pizza)-orga
+
+- ![Marc Foto](images/marc.jpg)
+
+    ---
+
+    **Marc Uwe Moellenkamp**  
+    Mitglied
+
+- ![fotohier](images/fotohier.gif)
+
+    ---
+
+    **Jerome-Bennet Dietrich**  
+    Mitglied, Discord-Mod
+
+- ![fotohier](images/fotohier.gif)
+
+    ---
+
+    **Maximilian "Max" Scech**  
+    Mitglied
+
+- ![fotohier](images/fotohier.gif)
+
+    ---
+
+    **Adrian Brinkel**  
+    Mitglied, Spieleabend-orga
+
+- ![fotohier](images/fotohier.gif)
+
+    ---
+
+    **Constantin "Consti" Gubert**  
+    Mitglied
+
+- ![fotohier](images/fotohier.gif)
+
+    ---
+
+    **Mike Koroch**  
+    Mitglied
+
 - ![fotohier](images/fotohier.gif)
 
     ---
 
     **Chen Xu**  
-    Helfer
+    Helfer, Öffentlichkeitsarbeit
 
 </div>
