@@ -18,13 +18,8 @@ Natürlich haben wir auch einen Discord-Server, wie es sich für Informatiker ge
 
     ---
 
-    <a href="#" onclick="window.location.href='mailto:' + 'info' + '&#64;' + 'fsrfb4.de'; return false;">
-    info&#64;fsrfb4.de
-    </a>
-    <br>
-    <a href="#" onclick="window.location.href='mailto:' + 'informatik' + '&#64;' + 'fasta.fh-dortmund.de'; return false;">
-    informatik&#64;fasta.fh-dortmund.de
-    </a>
+    <a href="mailto:info&#64;fsrfb4.de">info&#64;fsrfb4.de</a><br>
+    <a href="mailto:informatik&#64;fasta.fh-dortmund.de">informatik&#64;fasta.fh-dortmund.de</a>
 
 - :material-map: **Anschrift**
 
