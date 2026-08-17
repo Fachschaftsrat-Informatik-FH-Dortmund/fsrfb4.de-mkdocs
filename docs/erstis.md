@@ -6,7 +6,7 @@ Das wichtigste zuerst: **Unser Erstitag findet dieses Jahr am 10. September 2026
 
 Auf der folgenden Seite findest du eine Übersicht und Zusammenfassungen aller relevanten Erstsemester-Informationen und Termine, die im Wintersemester 2026/2027 auf dich zukommen. Wir hoffen, dir helfen die Infos weiter und du hast einen guten Start in dein Studium am Fachbereich Informatik.
 
-Kontakt zur Ersti-Orga 2025: [informatik@fasta.fh-dortmund.de](mailto:informatik@fasta.fh-dortmund.de)
+Kontakt zur Ersti-Orga 2026: [informatik@fasta.fh-dortmund.de](mailto:informatik@fasta.fh-dortmund.de)
 
 
 
