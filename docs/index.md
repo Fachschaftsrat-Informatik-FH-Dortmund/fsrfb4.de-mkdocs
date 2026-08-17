@@ -1,7 +1,7 @@
 # Fachschaftsrat Informatik
 
 [:fontawesome-brands-instagram: Instagram](https://www.instagram.com/fachschaftsrat_fb4){ .md-button .md-button--primary .fsr-button }
-[:fontawesome-brands-discord: Discord](https://discord.gg/C3hQfvRHRg){ .md-button .md-button--primary .fsr-button }
+[:fontawesome-brands-discord: Discord](https://fsrfb4.de/discord){ .md-button .md-button--primary .fsr-button }
 
 ## Wer wir sind
 ![fotohier](images/gruppenfoto2025.JPG)
