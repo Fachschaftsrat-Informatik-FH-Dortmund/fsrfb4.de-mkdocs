@@ -76,7 +76,7 @@
 
     ---
 
-    Keine wirklich Regelmäßigen Termine, beachtet eure E-mails!
+    Keine wirklich regelmäßigen Termine, beachtet eure E-Mails!
 
     ---
 
