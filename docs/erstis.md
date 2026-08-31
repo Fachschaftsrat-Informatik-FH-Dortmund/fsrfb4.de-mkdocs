@@ -49,8 +49,6 @@ Wir haben mit viel Herzensblut und Liebe für euch ein Programm zusammengestellt
 
 
 ## Whatsapp-Gruppe
-!!! warning "noch alt"
-    die neuen Grupppen werden bald erstellt.
 Den Einladungslink für die von uns geleiteten WhatsApp-Gruppen und viele weitere wichtige Links findest du in unserer [Linksammlung](http://fsrfb4.de/links).
 
 <!-- Für den Link zur WhatsApp-Gruppe musst du dich einmal bei ILIAS anmelden. Dafür benötigst du nur die Zugangsdaten, die dir von der FH schon per Post zugesandt wurden. 
