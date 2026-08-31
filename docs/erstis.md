@@ -6,7 +6,7 @@ Das wichtigste zuerst: **Unser Erstitag findet dieses Jahr am 10. September 2026
 
 Auf der folgenden Seite findest du eine Übersicht und Zusammenfassungen aller relevanten Erstsemester-Informationen und Termine, die im Wintersemester 2026/2027 auf dich zukommen. Wir hoffen, dir helfen die Infos weiter und du hast einen guten Start in dein Studium am Fachbereich Informatik.
 
-Kontakt zur Ersti-Orga 2025: [informatik@fasta.fh-dortmund.de](mailto:informatik@fasta.fh-dortmund.de)
+Kontakt zur Ersti-Orga 2026: [informatik@fasta.fh-dortmund.de](mailto:informatik@fasta.fh-dortmund.de)
 
 
 
@@ -17,12 +17,12 @@ Aboniert gerne zusätzlich unseren Kalender welcher auf [Aktuelles](https://fsrf
 | Datum       | Event              | Uhrzeit       | Ort                  | Beschreibung |
 |-------------|--------------------|---------------|----------------------|--------------|
 | 10.09.      | Erstitag           | ab 10 Uhr     | [A.E.01](https://wiki.fsrfb4.de/books/erstiheft/page/raume-finden){target="_blank"}     | Infos zum Studium, Grillen, Campusführung |
-| 28.09.      | Spieleabend        | 16–22 Uhr     | [A.E.03](https://wiki.fsrfb4.de/books/erstiheft/page/raume-finden){target="_blank"} A.E.03               | Abend mit Brett- und Kartenspielen sowie Pizza-Snack |
+| 28.09.      | Spieleabend        | 16–22 Uhr     | [A.E.03](https://wiki.fsrfb4.de/books/erstiheft/page/raume-finden){target="_blank"}                | Abend mit Brett- und Kartenspielen sowie Pizza-Snack |
 | 29.09.      | Campusolympiade    | 15–18 Uhr     | Treffpunkt Foyer     | Teamwettkämpfe rund um den Campus |
-| 29.09.      | Karaoke            | 19–22 Uhr     | Inolab/[N.E.23](https://wiki.fsrfb4.de/books/erstiheft/page/raume-finden){target="_blank"}               | Karaoke-Abend für alle Gesangsfreudigen |
-| 30.09.      | Filmenachmittag    | 16–18 Uhr     | A.E.01               | inkl. Popcorn und Nachos gegen kleinen Preis |
+| 29.09.      | Karaoke            | 19–22 Uhr     | Innolab/[B.E.23](https://wiki.fsrfb4.de/books/erstiheft/page/raume-finden){target="_blank"}               | Karaoke-Abend für alle Gesangsfreudigen |
+| 30.09.      | Filmenachmittag    | 16–18 Uhr     |[A.E.01](https://wiki.fsrfb4.de/books/erstiheft/page/raume-finden){target="_blank"}               | inkl. Popcorn und Nachos gegen kleinen Preis |
 | 30.09.      | Kneipentour        | ab 18 Uhr     | Treffpunkt Foyer     | Kneipen in Dortmund gemeinsam erkunden |
-| 01.10.      | Flunken im Westpark| ab 15 Uhr     | Treffpunkt Westpark  | Outdoor-Spiel "Flunkyball" im Westpark |
+| 01.10.      | Flunken im Westpark| ab 15 Uhr     | Treffpunkt [Westpark](https://www.google.de/maps/place/Westpark/@51.5098123,7.4479914,827m/data=!3m1!1e3!4m6!3m5!1s0x47b919c27c5ddcd1:0x8ee0f94751ec13fe!8m2!3d51.5096797!4d7.448644!16s%2Fg%2F121fwjdh!5m1!1e2?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D){target="_blank"}  | Outdoor-Spiel "Flunkyball" im Westpark |
 | 02.10.      | Gamingabend        | 16–22 Uhr     | Innolab/[B.E.23](https://wiki.fsrfb4.de/books/erstiheft/page/raume-finden){target="_blank"}               | Konsolen- und PC-Gaming in einem comfy High-Tech Raum |
 
 
@@ -49,8 +49,6 @@ Wir haben mit viel Herzensblut und Liebe für euch ein Programm zusammengestellt
 
 
 ## Whatsapp-Gruppe
-!!! warning "noch alt"
-    die neuen Grupppen werden bald erstellt.
 Den Einladungslink für die von uns geleiteten WhatsApp-Gruppen und viele weitere wichtige Links findest du in unserer [Linksammlung](http://fsrfb4.de/links).
 
 <!-- Für den Link zur WhatsApp-Gruppe musst du dich einmal bei ILIAS anmelden. Dafür benötigst du nur die Zugangsdaten, die dir von der FH schon per Post zugesandt wurden. 
