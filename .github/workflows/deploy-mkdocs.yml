@@ -9,14 +9,14 @@ on:
 
 jobs:
   deploy:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v7
         with:
           python-version: "3.11"
 
@@ -29,7 +29,7 @@ jobs:
         run: mkdocs build
 
       - name: Deploy to server via rsync
-        uses: easingthemes/ssh-deploy@v5.0.0
+        uses: easingthemes/ssh-deploy@v6.0.3
         with:
           SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
           REMOTE_HOST: ${{ secrets.SSH_HOST }}
@@ -37,4 +37,6 @@ jobs:
           REMOTE_PORT: ${{ secrets.SSH_PORT || 22 }}
           SOURCE: "site/"
           TARGET: "/var/www/mkdocs-site"
-          ARGS: "-rlgoDzv --no-times --delete"
+          # No -g/-o: the deploy user may not chgrp/chown on the server,
+          # which made rsync abort with exit code 23.
+          ARGS: "-rlDzv --no-times --delete"
