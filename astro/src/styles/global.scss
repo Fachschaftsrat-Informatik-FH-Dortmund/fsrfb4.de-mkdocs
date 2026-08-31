@@ -1,0 +1,58 @@
+@use "tokens";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--fsr-font-body);
+  color: var(--fsr-color-text);
+  background: var(--fsr-color-background);
+  line-height: 1.6;
+}
+
+// Carried over from extra.css: justified body copy with hyphenation. Scoped to
+// the content area so it cannot leak into navigation or button labels.
+.content p {
+  text-align: justify;
+  hyphens: auto;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 1.25;
+  color: var(--fsr-color-primary);
+}
+
+a {
+  color: var(--fsr-color-link);
+
+  &:hover {
+    color: var(--fsr-color-accent);
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+
+  th,
+  td {
+    border: 1px solid var(--fsr-color-border);
+    padding: var(--fsr-space-sm);
+    text-align: left;
+  }
+
+  th {
+    background: var(--fsr-color-surface);
+  }
+}

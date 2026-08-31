@@ -1,0 +1,9 @@
+allowBuilds:
+  esbuild: true
+  sharp: true
+  # Only needed for the Sass CLI watch mode; Astro uses Vite's watcher.
+  '@parcel/watcher': false
+minimumReleaseAgeExclude:
+  - '@astrojs/internal-helpers@0.11.0'
+  - '@astrojs/markdown-satteri@0.4.0'
+  - astro@7.2.10

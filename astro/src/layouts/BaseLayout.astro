@@ -1,0 +1,62 @@
+---
+import SiteHeader from "../components/SiteHeader.astro";
+import "../styles/global.scss";
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description } = Astro.props;
+---
+
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <title>{title} — FSR Informatik FH Dortmund</title>
+    {description && <meta name="description" content={description} />}
+  </head>
+  <body>
+    <a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
+    <SiteHeader />
+    <main id="inhalt" class="content">
+      <slot />
+    </main>
+    <footer class="site-footer">
+      <p>Fachschaftsrat Informatik — FH Dortmund</p>
+    </footer>
+  </body>
+</html>
+
+<style lang="scss">
+  .skip-link {
+    position: absolute;
+    left: -9999px;
+
+    &:focus {
+      left: var(--fsr-space-md);
+      top: var(--fsr-space-md);
+      z-index: 10;
+      padding: var(--fsr-space-sm) var(--fsr-space-md);
+      background: var(--fsr-color-background);
+      border-radius: var(--fsr-radius);
+    }
+  }
+
+  .content {
+    max-width: var(--fsr-content-width);
+    margin: 0 auto;
+    padding: var(--fsr-space-xl) var(--fsr-space-lg);
+  }
+
+  .site-footer {
+    border-top: 1px solid var(--fsr-color-border);
+    padding: var(--fsr-space-lg);
+    text-align: center;
+    color: var(--fsr-color-text-muted);
+    font-size: 0.9rem;
+  }
+</style>

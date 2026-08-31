@@ -1,0 +1,75 @@
+---
+const { pathname } = Astro.url;
+
+const navItems = [
+  { href: "/", label: "Home" },
+  { href: "/erstis/", label: "Erstis" },
+  { href: "/ekeys/", label: "E-Keys" },
+  { href: "/app/", label: "FSR-App" },
+  { href: "/aktuelles/", label: "Aktuelles" },
+  { href: "/kontakt/", label: "Kontakt" },
+  { href: "/impressum/", label: "Impressum" },
+];
+
+const isCurrent = (href: string) =>
+  href === "/" ? pathname === "/" : pathname.startsWith(href);
+---
+
+<header class="site-header">
+  <a class="site-header__brand" href="/">FSR Informatik</a>
+  <nav class="site-header__nav" aria-label="Hauptnavigation">
+    <ul>
+      {
+        navItems.map((item) => (
+          <li>
+            <a href={item.href} aria-current={isCurrent(item.href) ? "page" : undefined}>
+              {item.label}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </nav>
+</header>
+
+<style lang="scss">
+  .site-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: var(--fsr-space-md);
+    padding: var(--fsr-space-md) var(--fsr-space-lg);
+    background: var(--fsr-color-primary);
+
+    &__brand {
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    &__nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--fsr-space-md);
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    &__nav a {
+      color: #fff;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 0.85rem;
+      letter-spacing: 0.04em;
+      border-bottom: 2px solid transparent;
+
+      &:hover,
+      &[aria-current="page"] {
+        color: #fff;
+        border-bottom-color: var(--fsr-color-accent);
+      }
+    }
+  }
+</style>

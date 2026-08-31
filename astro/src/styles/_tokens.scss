@@ -1,0 +1,26 @@
+// Design tokens. The three colours are carried over verbatim from the MkDocs
+// theme (docs/stylesheets/extra.css), but no longer named after Material —
+// decoupling the content from the theme is the point of the port.
+:root {
+  --fsr-color-primary: #3f3f3f;
+  --fsr-color-accent: #f52200;
+  --fsr-color-link: #f55500;
+
+  --fsr-color-text: #1a1a1a;
+  --fsr-color-text-muted: #5c5c5c;
+  --fsr-color-background: #ffffff;
+  --fsr-color-surface: #f4f4f4;
+  --fsr-color-border: #d8d8d8;
+
+  --fsr-font-body: "Atkinson Hyperlegible Next", system-ui, sans-serif;
+  --fsr-font-mono: "Atkinson Hyperlegible Mono", ui-monospace, monospace;
+
+  --fsr-space-xs: 0.25rem;
+  --fsr-space-sm: 0.5rem;
+  --fsr-space-md: 1rem;
+  --fsr-space-lg: 2rem;
+  --fsr-space-xl: 3rem;
+
+  --fsr-radius: 5px;
+  --fsr-content-width: 60rem;
+}
