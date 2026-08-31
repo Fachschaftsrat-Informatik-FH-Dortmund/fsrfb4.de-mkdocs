@@ -1,0 +1,57 @@
+---
+import { Icon } from "astro-icon/components";
+
+// Replaces `{ .md-button .md-button--primary .fsr-button }`. The attr_list
+// syntax has no equivalent in Astro's Markdown pipeline — it would render as
+// literal text — so the buttons become a component instead.
+interface Props {
+  href: string;
+  icon?: string;
+}
+
+const { href, icon } = Astro.props;
+
+// Every button in the source links off-site; keep that explicit rather than
+// implicit, and guard the target with rel.
+const isExternal = href.startsWith("http");
+---
+
+<a
+  class="button"
+  href={href}
+  target={isExternal ? "_blank" : undefined}
+  rel={isExternal ? "noopener noreferrer" : undefined}
+>
+  {icon && <Icon name={icon} aria-hidden="true" />}
+  <span><slot /></span>
+</a>
+
+<style lang="scss">
+  // Colours carried over from .fsr-button in extra.css, without the !important
+  // stack it needed to beat Material's own rules.
+  .button {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--fsr-space-sm);
+    margin: var(--fsr-space-xs) var(--fsr-space-sm) var(--fsr-space-xs) 0;
+    padding: var(--fsr-space-sm) var(--fsr-space-md);
+    border: 1px solid var(--fsr-color-link);
+    border-radius: var(--fsr-radius);
+    background: var(--fsr-color-link);
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+    user-select: none;
+
+    &:hover,
+    &:focus-visible {
+      border-color: var(--fsr-color-accent);
+      background: var(--fsr-color-accent);
+      color: #fff;
+    }
+  }
+
+  [data-icon] {
+    font-size: 1.15em;
+  }
+</style>

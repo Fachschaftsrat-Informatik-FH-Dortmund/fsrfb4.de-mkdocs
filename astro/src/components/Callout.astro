@@ -1,0 +1,78 @@
+---
+import { Icon } from "astro-icon/components";
+
+// Replaces the `!!!` admonitions. The four variants in use map onto the
+// Material types they came from (info, tip, warning, danger).
+type Variant = "info" | "tip" | "warning" | "danger";
+
+interface Props {
+  variant?: Variant;
+  title: string;
+}
+
+const { variant = "info", title } = Astro.props;
+
+const icons: Record<Variant, string> = {
+  info: "mdi:information-outline",
+  tip: "mdi:lightbulb-on-outline",
+  warning: "mdi:alert-outline",
+  danger: "mdi:alert-octagon-outline",
+};
+---
+
+<aside class:list={["callout", `callout--${variant}`]}>
+  <p class="callout__title">
+    <Icon name={icons[variant]} aria-hidden="true" />
+    <span>{title}</span>
+  </p>
+  <div class="callout__body">
+    <slot />
+  </div>
+</aside>
+
+<style lang="scss">
+  .callout {
+    --callout-color: #448aff;
+
+    margin: var(--fsr-space-lg) 0;
+    border-left: 4px solid var(--callout-color);
+    border-radius: var(--fsr-radius);
+    background: color-mix(in srgb, var(--callout-color) 8%, transparent);
+
+    &--tip {
+      --callout-color: #00bfa5;
+    }
+
+    &--warning {
+      --callout-color: #ff9100;
+    }
+
+    &--danger {
+      --callout-color: #ff1744;
+    }
+
+    &__title {
+      display: flex;
+      align-items: center;
+      gap: var(--fsr-space-sm);
+      margin: 0;
+      padding: var(--fsr-space-sm) var(--fsr-space-md);
+      font-weight: 700;
+      color: var(--callout-color);
+      text-align: left;
+    }
+
+    &__body {
+      padding: 0 var(--fsr-space-md) var(--fsr-space-sm);
+
+      :global(p) {
+        margin-top: 0;
+      }
+    }
+  }
+
+  [data-icon] {
+    flex: none;
+    font-size: 1.2em;
+  }
+</style>

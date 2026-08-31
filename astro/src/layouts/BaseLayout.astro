@@ -2,12 +2,20 @@
 import SiteHeader from "../components/SiteHeader.astro";
 import "../styles/global.scss";
 
-interface Props {
+interface Frontmatter {
   title: string;
   description?: string;
 }
 
-const { title, description } = Astro.props;
+interface Props extends Partial<Frontmatter> {
+  // Markdown and MDX pages using `layout:` pass their frontmatter as one
+  // object rather than as individual props, so accept both shapes.
+  frontmatter?: Frontmatter;
+}
+
+const { frontmatter } = Astro.props;
+const title = frontmatter?.title ?? Astro.props.title ?? "";
+const description = frontmatter?.description ?? Astro.props.description;
 ---
 
 <!doctype html>

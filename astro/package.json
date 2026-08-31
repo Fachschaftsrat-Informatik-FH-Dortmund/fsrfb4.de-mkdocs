@@ -13,13 +13,18 @@
     "check": "astro check"
   },
   "dependencies": {
-    "astro": "^7.2.10"
+    "@astrojs/mdx": "^7.0.8",
+    "astro": "^7.2.10",
+    "astro-icon": "^1.2.0"
   },
   "allowScripts": {
     "esbuild": true
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.10",
+    "@iconify-json/fa6-brands": "^1.2.6",
+    "@iconify-json/fa6-solid": "^1.2.4",
+    "@iconify-json/mdi": "^1.2.3",
     "sass": "^1.103.1",
     "typescript": "^6.0.3"
   }
