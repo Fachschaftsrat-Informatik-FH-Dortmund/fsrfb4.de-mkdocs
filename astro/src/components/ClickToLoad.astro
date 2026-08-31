@@ -1,0 +1,136 @@
+---
+import { Icon } from "astro-icon/components";
+
+// Replaces the `???` collapsibles from the MkDocs pages. Those were never a
+// design choice: a closed <details> plus loading="lazy" was the only way to
+// build a consent flow under MkDocs, where unfolding *was* the consent. What
+// has to survive the port is the effect — nothing is fetched from a third
+// party until someone actively asks for it — not the mechanism.
+//
+// The URL therefore lives in a data attribute rather than in a src, so the
+// markup contains no fetchable reference before the click.
+interface Props {
+  src: string;
+  title: string;
+  services: string[];
+  height: number;
+}
+
+const { src, title, services, height } = Astro.props;
+
+const serviceList = new Intl.ListFormat("de", {
+  style: "long",
+  type: "conjunction",
+}).format(services);
+---
+
+<click-to-load data-src={src} data-title={title} data-height={height}>
+  <div class="ctl" style={`--ctl-height: ${height}px`}>
+    <Icon class="ctl__icon" name="mdi:cloud-download-outline" aria-hidden="true" />
+    <p class="ctl__lead">{title}</p>
+    <p class="ctl__hint">
+      Beim Laden wird eine Verbindung zu {serviceList} hergestellt. Dabei
+      werden unter anderem deine IP-Adresse und Browserdaten übertragen.
+    </p>
+    <button class="ctl__button" type="button">Inhalt laden</button>
+    <p class="ctl__note">
+      Der Inhalt bleibt geladen, bis du die Seite neu lädst.
+    </p>
+  </div>
+</click-to-load>
+
+<script>
+  class ClickToLoad extends HTMLElement {
+    connectedCallback() {
+      const button = this.querySelector("button");
+      button?.addEventListener("click", () => this.load(), { once: true });
+    }
+
+    load() {
+      const { src, title, height } = this.dataset;
+      if (!src) return;
+
+      const frame = document.createElement("iframe");
+      frame.src = src;
+      frame.title = title ?? "";
+      frame.width = "100%";
+      frame.height = height ?? "600";
+      frame.loading = "eager";
+      frame.style.border = "0";
+      frame.style.display = "block";
+
+      this.replaceChildren(frame);
+      // Keyboard users just activated a button that vanished; move them to
+      // what replaced it instead of dropping them at the top of the document.
+      frame.focus();
+    }
+  }
+
+  customElements.define("click-to-load", ClickToLoad);
+</script>
+
+<style lang="scss">
+  .ctl {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--fsr-space-sm);
+    min-height: min(var(--ctl-height), 60vh);
+    padding: var(--fsr-space-lg);
+    border: 2px dashed var(--fsr-color-border);
+    border-radius: var(--fsr-radius);
+    background: var(--fsr-color-surface);
+    text-align: center;
+  }
+
+  .ctl__icon {
+    font-size: 2.5rem;
+    color: var(--fsr-color-text-muted);
+  }
+
+  .ctl__lead {
+    margin: 0;
+    font-weight: 700;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+
+  .ctl__hint {
+    max-width: 44ch;
+    margin: 0;
+    color: var(--fsr-color-text-muted);
+    text-align: center;
+  }
+
+  .ctl__button {
+    margin-top: var(--fsr-space-sm);
+    padding: var(--fsr-space-sm) var(--fsr-space-lg);
+    border: 1px solid var(--fsr-color-link);
+    border-radius: var(--fsr-radius);
+    background: var(--fsr-color-link);
+    color: #fff;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+
+    &:hover,
+    &:focus-visible {
+      border-color: var(--fsr-color-accent);
+      background: var(--fsr-color-accent);
+    }
+  }
+
+  .ctl__note {
+    margin: 0;
+    color: var(--fsr-color-text-muted);
+    font-size: 0.85rem;
+    text-align: center;
+  }
+
+  // Without JavaScript nothing can be loaded on demand, so say that instead of
+  // leaving a button that does nothing.
+  click-to-load:not(:defined) .ctl__button {
+    display: none;
+  }
+</style>
