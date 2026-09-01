@@ -32,7 +32,7 @@ const icons: Record<Variant, string> = {
 
 <style lang="scss">
   .callout {
-    --callout-color: #448aff;
+    --callout-color: var(--fsr-color-info);
 
     margin: var(--fsr-space-lg) 0;
     border-left: 4px solid var(--callout-color);
@@ -40,15 +40,15 @@ const icons: Record<Variant, string> = {
     background: color-mix(in srgb, var(--callout-color) 8%, transparent);
 
     &--tip {
-      --callout-color: #00bfa5;
+      --callout-color: var(--fsr-color-tip);
     }
 
     &--warning {
-      --callout-color: #ff9100;
+      --callout-color: var(--fsr-color-warning);
     }
 
     &--danger {
-      --callout-color: #ff1744;
+      --callout-color: var(--fsr-color-danger);
     }
 
     &__title {

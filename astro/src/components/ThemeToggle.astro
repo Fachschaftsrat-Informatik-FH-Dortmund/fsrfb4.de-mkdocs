@@ -1,0 +1,113 @@
+---
+import { Icon } from "astro-icon/components";
+---
+
+<theme-toggle>
+  <button type="button" aria-pressed="false">
+    <Icon class="theme-toggle__sun" name="mdi:white-balance-sunny" aria-hidden="true" />
+    <Icon class="theme-toggle__moon" name="mdi:moon-waning-crescent" aria-hidden="true" />
+    <span class="theme-toggle__label">Dunkles Design</span>
+  </button>
+</theme-toggle>
+
+<script>
+  const STORAGE_KEY = "fsr-theme";
+
+  class ThemeToggle extends HTMLElement {
+    connectedCallback() {
+      const button = this.querySelector("button");
+      if (!button) return;
+
+      this.sync(button);
+      button.addEventListener("click", () => {
+        const next =
+          document.documentElement.dataset.theme === "dark" ? "light" : "dark";
+        document.documentElement.dataset.theme = next;
+        localStorage.setItem(STORAGE_KEY, next);
+        this.sync(button);
+      });
+
+      // Someone who never picked a theme should still follow the system when
+      // it changes underneath them.
+      window
+        .matchMedia("(prefers-color-scheme: dark)")
+        .addEventListener("change", (event) => {
+          if (localStorage.getItem(STORAGE_KEY)) return;
+          document.documentElement.dataset.theme = event.matches
+            ? "dark"
+            : "light";
+          this.sync(button);
+        });
+    }
+
+    sync(button: HTMLButtonElement) {
+      const isDark = document.documentElement.dataset.theme === "dark";
+      button.setAttribute("aria-pressed", String(isDark));
+      const label = button.querySelector(".theme-toggle__label");
+      if (label) {
+        label.textContent = isDark ? "Helles Design" : "Dunkles Design";
+      }
+    }
+  }
+
+  customElements.define("theme-toggle", ThemeToggle);
+</script>
+
+<style lang="scss">
+  button {
+    display: flex;
+    align-items: center;
+    gap: var(--fsr-space-sm);
+    padding: var(--fsr-space-xs) var(--fsr-space-sm);
+    border: 1px solid transparent;
+    border-radius: var(--fsr-radius);
+    background: none;
+    color: var(--fsr-color-header-fg);
+    font: inherit;
+    font-size: 0.85rem;
+    cursor: pointer;
+
+    &:hover,
+    &:focus-visible {
+      border-color: currentColor;
+    }
+  }
+
+  [data-icon] {
+    font-size: 1.2em;
+  }
+
+  // The icon shows where the click leads, matching the label: a moon while the
+  // page is light, a sun while it is dark.
+  .theme-toggle__sun {
+    display: none;
+  }
+
+  :global(:root[data-theme="dark"]) {
+    .theme-toggle__moon {
+      display: none;
+    }
+
+    .theme-toggle__sun {
+      display: inline-block;
+    }
+  }
+
+  // The label is for screen readers and wide screens; the icon carries it on
+  // narrow ones.
+  @media (max-width: 700px) {
+    .theme-toggle__label {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip-path: inset(50%);
+      white-space: nowrap;
+    }
+  }
+
+  // Without JavaScript the button cannot do anything, so do not offer it.
+  theme-toggle:not(:defined) {
+    display: none;
+  }
+</style>

@@ -1,16 +1,64 @@
-// Design tokens. The three colours are carried over verbatim from the MkDocs
-// theme (docs/stylesheets/extra.css), but no longer named after Material —
+// Design tokens. The three brand colours come over verbatim from the MkDocs
+// theme (docs/stylesheets/extra.css), but are no longer named after Material —
 // decoupling the content from the theme is the point of the port.
-:root {
-  --fsr-color-primary: #3f3f3f;
+
+// One token used to carry both the header background and the heading colour.
+// That works while everything is light and falls apart the moment a dark theme
+// needs a dark bar and light headings, so the two are separate now.
+@mixin light {
   --fsr-color-accent: #f52200;
   --fsr-color-link: #f55500;
+
+  --fsr-color-heading: #3f3f3f;
+  --fsr-color-header-bg: #3f3f3f;
+  --fsr-color-header-fg: #ffffff;
 
   --fsr-color-text: #1a1a1a;
   --fsr-color-text-muted: #5c5c5c;
   --fsr-color-background: #ffffff;
   --fsr-color-surface: #f4f4f4;
   --fsr-color-border: #d8d8d8;
+
+  --fsr-color-info: #1667c9;
+  --fsr-color-tip: #00806e;
+  --fsr-color-warning: #9a5b00;
+  --fsr-color-danger: #c9002b;
+
+  color-scheme: light;
+}
+
+@mixin dark {
+  // The brand colours stay put in both themes. They also happen to read better
+  // here than in the light theme: #f55500 lands at about 5.4:1 on this
+  // background against roughly 3.2:1 on white.
+  --fsr-color-accent: #f52200;
+  --fsr-color-link: #f55500;
+
+  --fsr-color-heading: #f0f0f0;
+  --fsr-color-header-bg: #0f1113;
+  --fsr-color-header-fg: #f0f0f0;
+
+  --fsr-color-text: #e6e8ea;
+  --fsr-color-text-muted: #a3a9ae;
+  --fsr-color-background: #16181a;
+  --fsr-color-surface: #212528;
+  --fsr-color-border: #363b40;
+
+  --fsr-color-info: #6aa9f0;
+  --fsr-color-tip: #3ecfb2;
+  --fsr-color-warning: #e0a049;
+  --fsr-color-danger: #ff6b81;
+
+  // Lets the browser theme scrollbars, form controls and the like to match.
+  color-scheme: dark;
+}
+
+:root {
+  @include light;
+
+  // The accent surface carries the same brand colour in both themes, so the
+  // text on top of it does not change either.
+  --fsr-color-on-accent: #ffffff;
 
   --fsr-font-body: "Atkinson Hyperlegible Next", system-ui, sans-serif;
   --fsr-font-mono: "Atkinson Hyperlegible Mono", ui-monospace, monospace;
@@ -23,4 +71,16 @@
 
   --fsr-radius: 5px;
   --fsr-content-width: 60rem;
+}
+
+// Follow the system as long as nobody has chosen explicitly. The attribute is
+// set by an inline script in the head, so a stored choice wins over this.
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    @include dark;
+  }
+}
+
+:root[data-theme="dark"] {
+  @include dark;
 }

@@ -48,6 +48,7 @@ src/
 | `CardGrid` / `Card` | `<div class="grid cards" markdown>` |
 | `MemberGrid` | die sechzehn wiederholten Personenblöcke |
 | `ClickToLoad` | die `???`-Klappfelder vor den iframes |
+| `ThemeToggle` | neu — Umschalter zwischen hellem und dunklem Design |
 
 ## Worauf zu achten ist
 
@@ -58,6 +59,10 @@ src/
   Solche Fälle gehören in eine Komponente.
 - **TypeScript ist auf 6.x festgehalten.** Der native Compiler 7.x bietet die
   Schnittstelle nicht, die `astro check` braucht.
+- **Farben gehören in `_tokens.scss`**, nicht in die Komponenten. Dort stehen
+  sie je einmal für hell und dunkel; ein fester Farbwert in einer Komponente
+  bricht eines der beiden Designs. Die Markenfarben `#f52200` und `#f55500`
+  sind in beiden gleich und bleiben es.
 - **`ClickToLoad` darf keine ladbare Referenz enthalten**, solange niemand
   geklickt hat. Die URL steht deshalb in einem `data`-Attribut und nicht in
   einem `src`. Wer daran etwas ändert, sollte danach im Netzwerkmitschnitt

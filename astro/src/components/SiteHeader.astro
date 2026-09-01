@@ -1,4 +1,6 @@
 ---
+import ThemeToggle from "./ThemeToggle.astro";
+
 const { pathname } = Astro.url;
 
 const navItems = [
@@ -30,6 +32,7 @@ const isCurrent = (href: string) =>
       }
     </ul>
   </nav>
+  <ThemeToggle />
 </header>
 
 <style lang="scss">
@@ -39,13 +42,20 @@ const isCurrent = (href: string) =>
     align-items: center;
     gap: var(--fsr-space-md);
     padding: var(--fsr-space-md) var(--fsr-space-lg);
-    background: var(--fsr-color-primary);
+    background: var(--fsr-color-header-bg);
+    // In the dark theme the bar and the page are close enough in tone that the
+    // header would otherwise have no visible edge.
+    border-bottom: 1px solid var(--fsr-color-border);
 
     &__brand {
       font-weight: 700;
       font-size: 1.1rem;
-      color: #fff;
+      color: var(--fsr-color-header-fg);
       text-decoration: none;
+    }
+
+    &__nav {
+      margin-right: auto;
     }
 
     &__nav ul {
@@ -58,7 +68,7 @@ const isCurrent = (href: string) =>
     }
 
     &__nav a {
-      color: #fff;
+      color: var(--fsr-color-header-fg);
       text-decoration: none;
       text-transform: uppercase;
       font-size: 0.85rem;
@@ -67,7 +77,6 @@ const isCurrent = (href: string) =>
 
       &:hover,
       &[aria-current="page"] {
-        color: #fff;
         border-bottom-color: var(--fsr-color-accent);
       }
     }

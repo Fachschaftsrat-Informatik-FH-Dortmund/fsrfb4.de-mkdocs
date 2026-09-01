@@ -26,6 +26,17 @@ const description = frontmatter?.description ?? Astro.props.description;
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{title} — FSR Informatik FH Dortmund</title>
     {description && <meta name="description" content={description} />}
+    {/* Runs before the body renders: without it the page would paint in the
+        light theme and then swap, which is exactly the flash people notice. */}
+    <script is:inline>
+      (() => {
+        const stored = localStorage.getItem("fsr-theme");
+        const dark = stored
+          ? stored === "dark"
+          : window.matchMedia("(prefers-color-scheme: dark)").matches;
+        document.documentElement.dataset.theme = dark ? "dark" : "light";
+      })();
+    </script>
   </head>
   <body>
     <a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
