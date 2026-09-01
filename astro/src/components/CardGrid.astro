@@ -1,0 +1,25 @@
+---
+// Replaces `<div class="grid cards" markdown>`. That construct only existed
+// because Material offered one grid for everything; the markdown attribute it
+// needed is a Python-Markdown extension with no equivalent here.
+interface Props {
+  minColumnWidth?: string;
+}
+
+const { minColumnWidth = "18rem" } = Astro.props;
+---
+
+<ul class="card-grid" style={`--card-min: ${minColumnWidth}`}>
+  <slot />
+</ul>
+
+<style lang="scss">
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(var(--card-min), 1fr));
+    gap: var(--fsr-space-md);
+    margin: var(--fsr-space-lg) 0;
+    padding: 0;
+    list-style: none;
+  }
+</style>

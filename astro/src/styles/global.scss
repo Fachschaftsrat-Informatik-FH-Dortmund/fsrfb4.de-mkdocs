@@ -41,9 +41,17 @@ img {
   height: auto;
 }
 
+// Five columns do not fit a phone. Scrolling the table sideways keeps it
+// readable without dropping columns or shrinking the type.
+.table-scroll {
+  overflow-x: auto;
+  margin: var(--fsr-space-lg) 0;
+}
+
 table {
   border-collapse: collapse;
   width: 100%;
+  min-width: 40rem;
 
   th,
   td {

@@ -4,6 +4,9 @@ title: Aktuelles & Termine
 ---
 
 import ClickToLoad from "../components/ClickToLoad.astro";
+import Callout from "../components/Callout.astro";
+import CardGrid from "../components/CardGrid.astro";
+import Card from "../components/Card.astro";
 
 # Aktuelles & Termine
 
@@ -29,4 +32,67 @@ import ClickToLoad from "../components/ClickToLoad.astro";
 
 ## Veranstaltungen
 
-Platzhalter — der Rest der Seite wird noch aus `docs/aktuelles.md` portiert.
+<Callout variant="info" title="Info">
+  Wir senden euch zu den regelmäßigen Veranstaltungen immer noch eine Mail.
+  Bitte beachtet diese, die Zeiten unten sind nur Richtwerte.
+</Callout>
+
+<CardGrid minColumnWidth="24rem">
+  <Card icon="fa6-solid:people-group" title="FSR-Sitzungen">
+    <p>
+      Der FSR Informatik hält seine Sitzungen im Normalfall alle zwei bis vier
+      Wochen dienstags oder mittwochs ab. Die Einladungen zu den Sitzungen und
+      Protokolle findest du in unserem <a href="https://www.ilias.fh-dortmund.de/ilias/goto_ilias-fhdo_fold_1319348.html">ILIAS-Kurs</a>.
+      Außerdem tragen wir die Termine in unseren <a href="#kalender">Kalender</a> ein.
+    </p>
+  </Card>
+</CardGrid>
+
+<CardGrid>
+  <Card icon="mdi:beer" title="Stammtisch">
+    <p>
+      Jeden ersten Mittwoch im Monat<br />
+      Beginn 19:30 Uhr
+    </p>
+    <hr />
+    <p>
+      Platz an der Sonne<br />
+      Gutenbergstraße 38<br />
+      44139 Dortmund
+    </p>
+  </Card>
+
+  <Card icon="mdi:cards" title="Spieleabend">
+    <p>
+      Jeden zweiten Donnerstag im Monat<br />
+      Beginn 18:00 Uhr
+    </p>
+    <hr />
+    <p>
+      Fachhochschule Dortmund<br />
+      Emil-Figge-Straße 42<br />
+      Raum A.E.03<br />
+      44227 Dortmund
+    </p>
+  </Card>
+
+  <Card icon="rainbow-beer" title="Queer Connect">
+    <p>
+      Jeden letzten Dienstag<br />
+      Beginn 16:00 Uhr
+    </p>
+    <hr />
+    <p>
+      Fachhochschule Dortmund<br />
+      Emil-Figge-Straße 42<br />
+      Raum B.E.01<br />
+      44227 Dortmund
+    </p>
+  </Card>
+
+  <Card icon={["mic", "material-theaters"]} title="Karaoke/Filmabend">
+    <p>Keine wirklich regelmäßigen Termine, beachtet eure E-Mails!</p>
+    <hr />
+    <p>Fragt uns doch gerne, wenn ihr darauf bock hättet :)</p>
+  </Card>
+</CardGrid>

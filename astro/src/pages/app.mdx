@@ -1,0 +1,17 @@
+---
+layout: ../layouts/BaseLayout.astro
+title: FSR-App
+---
+
+import { Image } from "astro:assets";
+import badge from "../assets/images/google-play-badge.png";
+
+# FSR-App
+
+Dank der Mühen einiger ehemaliger Studenten sind wir in der Lage, euch eine eigene App anzubieten. Diese ist leider zum aktuellen Zeitpunkt nur für Android verfügbar.
+
+{/* Das Badge lag bisher direkt bei play.google.com und wurde bei jedem Aufruf
+    von dort geholt. Jetzt liegt es im Repo und wird mitgebaut. */}
+<a href="https://play.google.com/store/apps/details?id=de.fsrfb4.fb4">
+  <Image src={badge} alt="Jetzt bei Google Play" width={220} />
+</a>

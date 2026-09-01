@@ -26,6 +26,7 @@
     "@iconify-json/fa6-solid": "^1.2.4",
     "@iconify-json/mdi": "^1.2.3",
     "sass": "^1.103.1",
+    "sharp": "^0.35.4",
     "typescript": "^6.0.3"
   }
 }

@@ -1,0 +1,73 @@
+---
+import { Icon } from "astro-icon/components";
+
+interface Props {
+  title: string;
+  // Karaoke/Filmabend carries two icons, so accept a list as well.
+  icon?: string | string[];
+}
+
+const { title, icon } = Astro.props;
+const icons = icon === undefined ? [] : Array.isArray(icon) ? icon : [icon];
+---
+
+<li class="card">
+  <p class="card__title">
+    {icons.map((name) => <Icon name={name} aria-hidden="true" />)}
+    <span>{title}</span>
+  </p>
+  <div class="card__body">
+    <slot />
+  </div>
+</li>
+
+<style lang="scss">
+  .card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid var(--fsr-color-border);
+    border-radius: var(--fsr-radius);
+    background: var(--fsr-color-background);
+  }
+
+  .card__title {
+    display: flex;
+    align-items: center;
+    gap: var(--fsr-space-sm);
+    margin: 0;
+    padding: var(--fsr-space-md);
+    border-bottom: 1px solid var(--fsr-color-border);
+    font-weight: 700;
+    text-align: left;
+  }
+
+  .card__body {
+    padding: var(--fsr-space-md);
+
+    // The source separated sections inside a card with `---`. Keep that as a
+    // real rule rather than as a paragraph break.
+    :global(hr) {
+      margin: var(--fsr-space-md) calc(-1 * var(--fsr-space-md));
+      border: 0;
+      border-top: 1px solid var(--fsr-color-border);
+    }
+
+    :global(p) {
+      text-align: left;
+      hyphens: none;
+    }
+
+    :global(p:first-child) {
+      margin-top: 0;
+    }
+
+    :global(p:last-child) {
+      margin-bottom: 0;
+    }
+  }
+
+  [data-icon] {
+    flex: none;
+    font-size: 1.25em;
+  }
+</style>

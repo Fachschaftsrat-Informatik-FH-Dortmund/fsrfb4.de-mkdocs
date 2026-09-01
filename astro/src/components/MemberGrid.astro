@@ -1,0 +1,83 @@
+---
+import { Image } from "astro:assets";
+import { Icon } from "astro-icon/components";
+import { members } from "../data/fsr-members";
+---
+
+<ul class="member-grid">
+  {
+    members.map((member) => (
+      <li class="member">
+        <Image
+          class="member__photo"
+          src={member.photo}
+          alt={`Foto von ${member.name}`}
+          width={320}
+          height={320}
+          loading="lazy"
+        />
+        <p class="member__name">
+          {member.name}
+          {member.github && (
+            <a href={member.github} rel="noopener noreferrer" target="_blank">
+              <Icon name="fa6-brands:github" title={`${member.name} auf GitHub`} />
+            </a>
+          )}
+        </p>
+        <p class="member__role">{member.role}</p>
+      </li>
+    ))
+  }
+</ul>
+
+<style lang="scss">
+  // Three columns, dropping to two on narrow screens — the same breakpoint the
+  // old .photo-grid rule used, minus the !important it needed against Material.
+  .member-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--fsr-space-md);
+    margin: var(--fsr-space-lg) 0;
+    padding: 0;
+    list-style: none;
+
+    @media (max-width: 700px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .member {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid var(--fsr-color-border);
+    border-radius: var(--fsr-radius);
+  }
+
+  .member__photo {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-bottom: 1px solid var(--fsr-color-border);
+  }
+
+  .member__name {
+    display: flex;
+    align-items: center;
+    gap: var(--fsr-space-sm);
+    margin: var(--fsr-space-md) var(--fsr-space-md) 0;
+    font-weight: 700;
+    text-align: left;
+    hyphens: none;
+  }
+
+  .member__role {
+    margin: var(--fsr-space-xs) var(--fsr-space-md) var(--fsr-space-md);
+    color: var(--fsr-color-text-muted);
+    font-size: 0.9rem;
+    text-align: left;
+    hyphens: none;
+  }
+</style>
