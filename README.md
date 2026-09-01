@@ -1,5 +1,11 @@
 # fsrfb4.de-mkdocs
 
+Die Seite läuft derzeit auf MkDocs mit dem Material-Theme. Daneben liegt in
+`astro/` ein **versuchsweiser Port nach Astro** als Vergleichsobjekt — siehe
+[astro/README.md](astro/README.md). Beide Varianten sind gleichzeitig baubar;
+was hier unter "Setup" und "Webseite hosten" steht, betrifft weiterhin die
+MkDocs-Fassung.
+
 ## Setup
 
 Um das virtual environment einzurichten, unter Linux einfach die `setup.sh` ausführen.

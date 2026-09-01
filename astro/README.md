@@ -1,43 +1,64 @@
-# Astro Starter Kit: Minimal
+# Astro-Prototyp
 
-```sh
-pnpm create astro@latest -- --template minimal
-```
+Ein **versuchsweiser Port** der Seite nach Astro, als Vergleichsobjekt zur
+MkDocs-Fassung im Elternverzeichnis. Beide Varianten sind gleichzeitig baubar;
+ob am Ende umgestellt wird, ist offen und entscheidet der FSR.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+Der Port ist ausdrücklich **kein Strukturklon**. Wo der Aufbau besser geht,
+weicht er ab — deutlichstes Beispiel sind die beiden Klappfelder auf
+`aktuelles`, die unter MkDocs nur deshalb Klappfelder waren, weil sich ein
+Consent-Flow anders nicht bauen ließ.
 
-## 🚀 Project Structure
+## Voraussetzungen
 
-Inside of your Astro project, you'll see the following folders and files:
+Node ≥ 22.12 und pnpm. Bewusst **kein pixi**, damit das Repo für alle im Team
+ohne Zusatzwerkzeug baubar bleibt.
+
+## Befehle
+
+Alle im Ordner `astro/` ausführen:
+
+| Befehl | Wirkung |
+|---|---|
+| `pnpm install` | Abhängigkeiten installieren |
+| `pnpm dev` | Testinstanz auf `localhost:4321` |
+| `pnpm build` | Typprüfung und Build nach `dist/` |
+| `pnpm check` | nur die Typprüfung |
+| `pnpm preview` | den fertigen Build lokal ansehen |
+
+## Aufbau
 
 ```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+src/
+├── assets/images/   Bilder, laufen über Astros Bildpipeline
+├── components/      Ersatz für die Material-Konstrukte
+├── data/            fsr-members.ts — die sechzehn Gesichter als Datenliste
+├── icons/           die drei eigenen SVGs, für astro-icon
+├── layouts/         Grundgerüst aller Seiten
+├── pages/           eine Datei je Seite, .mdx bzw. .md
+└── styles/          Farbtokens und Grundstile
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+### Komponenten
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+| Komponente | ersetzt |
+|---|---|
+| `Callout` | die `!!!`-Admonitions |
+| `Button` | `{ .md-button }` |
+| `CardGrid` / `Card` | `<div class="grid cards" markdown>` |
+| `MemberGrid` | die sechzehn wiederholten Personenblöcke |
+| `ClickToLoad` | die `???`-Klappfelder vor den iframes |
 
-Any static assets, like images, can be placed in the `public/` directory.
+## Worauf zu achten ist
 
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+- **`.mdx` nur, wo Komponenten stehen.** Reiner Fließtext wie das Impressum
+  bleibt `.md`.
+- **Attributsyntax aus Python-Markdown funktioniert nicht.** `{ .md-button }`
+  verschwindet nicht still, sondern landet als sichtbarer Text auf der Seite.
+  Solche Fälle gehören in eine Komponente.
+- **TypeScript ist auf 6.x festgehalten.** Der native Compiler 7.x bietet die
+  Schnittstelle nicht, die `astro check` braucht.
+- **`ClickToLoad` darf keine ladbare Referenz enthalten**, solange niemand
+  geklickt hat. Die URL steht deshalb in einem `data`-Attribut und nicht in
+  einem `src`. Wer daran etwas ändert, sollte danach im Netzwerkmitschnitt
+  prüfen, dass ohne Klick nichts nach außen geht.
