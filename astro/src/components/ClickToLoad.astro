@@ -13,10 +13,17 @@ interface Props {
   src: string;
   title: string;
   services: string[];
+  // Embedded third-party pages reflow, so one fixed height never fits both
+  // ends. Without a resize protocol from the other side these values can only
+  // be measured and rounded up, never derived — the calendar needs roughly
+  // 380px at full column width and over 850px at half that, because its cells
+  // grow as the text inside them wraps. Generous beats exact here: leftover
+  // whitespace is harmless, a scrollbar hides appointments.
   height: number;
+  heightNarrow?: number;
 }
 
-const { src, title, services, height } = Astro.props;
+const { src, title, services, height, heightNarrow = height } = Astro.props;
 
 const serviceList = new Intl.ListFormat("de", {
   style: "long",
@@ -24,8 +31,14 @@ const serviceList = new Intl.ListFormat("de", {
 }).format(services);
 ---
 
-<click-to-load data-src={src} data-title={title} data-height={height}>
-  <div class="ctl" style={`--ctl-height: ${height}px`}>
+<click-to-load
+  data-src={src}
+  data-title={title}
+  data-height={height}
+  data-height-narrow={heightNarrow}
+  style={`--ctl-height: ${height}px; --ctl-height-narrow: ${heightNarrow}px`}
+>
+  <div class="ctl">
     <Icon class="ctl__icon" name="mdi:cloud-download-outline" aria-hidden="true" />
     <p class="ctl__lead">{title}</p>
     <p class="ctl__hint">
@@ -47,17 +60,16 @@ const serviceList = new Intl.ListFormat("de", {
     }
 
     load() {
-      const { src, title, height } = this.dataset;
+      const { src, title } = this.dataset;
       if (!src) return;
 
       const frame = document.createElement("iframe");
       frame.src = src;
       frame.title = title ?? "";
-      frame.width = "100%";
-      frame.height = height ?? "600";
       frame.loading = "eager";
-      frame.style.border = "0";
-      frame.style.display = "block";
+      // Size comes from the stylesheet, where a media query can pick the
+      // narrow height. A height attribute would win over that.
+      frame.className = "ctl__frame";
 
       this.replaceChildren(frame);
       // Keyboard users just activated a button that vanished; move them to
@@ -70,18 +82,48 @@ const serviceList = new Intl.ListFormat("de", {
 </script>
 
 <style lang="scss">
+  // The placeholder is deliberately NOT as tall as the iframe it replaces.
+  // Reserving the full height would avoid a layout shift, but the shift here
+  // follows a deliberate click rather than a late-arriving resource — and the
+  // empty space costs every visitor, on every visit, most of all on a phone.
   .ctl {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: var(--fsr-space-sm);
-    min-height: min(var(--ctl-height), 60vh);
     padding: var(--fsr-space-lg);
     border: 2px dashed var(--fsr-color-border);
     border-radius: var(--fsr-radius);
     background: var(--fsr-color-surface);
     text-align: center;
+  }
+
+  click-to-load :global(.ctl__frame) {
+    display: block;
+    width: 100%;
+    height: var(--ctl-height);
+    border: 0;
+  }
+
+  // Below this width the content column's padding costs the embed roughly a
+  // fifth of its usable width, which is where it starts clipping columns.
+  // Letting it run to the edge buys that back.
+  @media (max-width: 700px) {
+    .ctl,
+    click-to-load :global(.ctl__frame) {
+      margin-inline: calc(-1 * var(--fsr-space-lg));
+      width: calc(100% + 2 * var(--fsr-space-lg));
+      border-radius: 0;
+    }
+
+    click-to-load :global(.ctl__frame) {
+      height: var(--ctl-height-narrow);
+    }
+
+    .ctl {
+      padding: var(--fsr-space-lg) var(--fsr-space-md);
+    }
   }
 
   .ctl__icon {
