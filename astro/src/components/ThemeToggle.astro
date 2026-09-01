@@ -4,8 +4,8 @@ import { Icon } from "astro-icon/components";
 
 <theme-toggle>
   <button type="button" aria-pressed="false">
-    <Icon class="theme-toggle__sun" name="mdi:white-balance-sunny" aria-hidden="true" />
-    <Icon class="theme-toggle__moon" name="mdi:moon-waning-crescent" aria-hidden="true" />
+    <Icon class="theme-toggle__on" name="mdi:lightbulb-on" aria-hidden="true" />
+    <Icon class="theme-toggle__off" name="mdi:lightbulb-on-outline" aria-hidden="true" />
     <span class="theme-toggle__label">Dunkles Design</span>
   </button>
 </theme-toggle>
@@ -57,8 +57,7 @@ import { Icon } from "astro-icon/components";
   button {
     display: flex;
     align-items: center;
-    gap: var(--fsr-space-sm);
-    padding: var(--fsr-space-xs) var(--fsr-space-sm);
+    padding: var(--fsr-space-xs);
     border: 1px solid transparent;
     border-radius: var(--fsr-radius);
     background: none;
@@ -74,36 +73,34 @@ import { Icon } from "astro-icon/components";
   }
 
   [data-icon] {
-    font-size: 1.2em;
+    font-size: 1.35rem;
   }
 
-  // The icon shows where the click leads, matching the label: a moon while the
-  // page is light, a sun while it is dark.
-  .theme-toggle__sun {
+  // The icon shows where the click leads: an unlit bulb while the page is
+  // light, a lit one while it is dark.
+  .theme-toggle__on {
     display: none;
   }
 
   :global(:root[data-theme="dark"]) {
-    .theme-toggle__moon {
+    .theme-toggle__off {
       display: none;
     }
 
-    .theme-toggle__sun {
+    .theme-toggle__on {
       display: inline-block;
     }
   }
 
-  // The label is for screen readers and wide screens; the icon carries it on
-  // narrow ones.
-  @media (max-width: 700px) {
-    .theme-toggle__label {
-      position: absolute;
-      width: 1px;
-      height: 1px;
-      overflow: hidden;
-      clip-path: inset(50%);
-      white-space: nowrap;
-    }
+  // Hidden from view, kept for screen readers: an icon-only button would
+  // otherwise reach them as a control with no name at all.
+  .theme-toggle__label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
   }
 
   // Without JavaScript the button cannot do anything, so do not offer it.
