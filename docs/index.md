@@ -3,6 +3,8 @@
 [:fontawesome-brands-instagram: Instagram](https://www.instagram.com/fachschaftsrat_fb4){ .md-button .md-button--primary .fsr-button }
 [:fontawesome-brands-discord: Discord](https://fsrfb4.de/discord){ .md-button .md-button--primary .fsr-button }
 
+!!! warning "geänderter Termin für den Erstitag"
+    Wir mussten den Erstitag verschieben! 11.09.2026 ab 11 Uhr ist der richtige Termin und wir freuen uns auf euch!
 ## Wer wir sind
 
 (TODO: neues Foto machen!)
