@@ -2,7 +2,7 @@
 
 Herzlich Willkommen am Fachbereich Informatik der FH Dortmund heißt euch euer Fachschaftsrat Informatik!
 
-Das wichtigste zuerst: **Unser Erstitag findet dieses Jahr am 10. September 2026 statt.**
+Das wichtigste zuerst: **Unser Erstitag findet dieses Jahr am 11. September 2026 ab 11 Uhr statt.**
 
 Auf der folgenden Seite findest du eine Übersicht und Zusammenfassungen aller relevanten Erstsemester-Informationen und Termine, die im Wintersemester 2026/2027 auf dich zukommen. Wir hoffen, dir helfen die Infos weiter und du hast einen guten Start in dein Studium am Fachbereich Informatik.
 
@@ -13,10 +13,11 @@ Kontakt zur Ersti-Orga 2026: [informatik@fasta.fh-dortmund.de](mailto:informatik
      
 ## Veranstaltungsplan
 Aboniert gerne zusätzlich unseren Kalender welcher auf [Aktuelles](https://fsrfb4.de/aktuelles/) zu finden ist :D
-
+!!! warning "geänderter Termin für den Erstitag"
+    In einer vorherigen Version stand ein anderes Datum, wir mussten den Erstitag jedoch verschieben! 11.09.2026 ab 11 Uhr ist richtig!
 | Datum       | Event              | Uhrzeit       | Ort                  | Beschreibung |
 |-------------|--------------------|---------------|----------------------|--------------|
-| 10.09.      | Erstitag           | ab 10 Uhr     | [A.E.01](https://wiki.fsrfb4.de/books/erstiheft/page/raume-finden){target="_blank"}     | Infos zum Studium, Grillen, Campusführung |
+| 11.09.      | Erstitag           | ab 11 Uhr     | [A.E.01](https://wiki.fsrfb4.de/books/erstiheft/page/raume-finden){target="_blank"}     | Infos zum Studium, Grillen, Campusführung |
 | 28.09.      | Spieleabend        | 16–22 Uhr     | [A.E.03](https://wiki.fsrfb4.de/books/erstiheft/page/raume-finden){target="_blank"}                | Abend mit Brett- und Kartenspielen sowie Pizza-Snack |
 | 29.09.      | Campusolympiade    | 15–18 Uhr     | Treffpunkt Foyer     | Teamwettkämpfe rund um den Campus |
 | 29.09.      | Karaoke            | 19–22 Uhr     | Innolab/[B.E.23](https://wiki.fsrfb4.de/books/erstiheft/page/raume-finden){target="_blank"}               | Karaoke-Abend für alle Gesangsfreudigen |
