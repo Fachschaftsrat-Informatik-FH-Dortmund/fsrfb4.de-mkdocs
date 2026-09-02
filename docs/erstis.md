@@ -29,7 +29,7 @@ Aboniert gerne zusätzlich unseren Kalender welcher auf [Aktuelles](https://fsrf
 
 ## Erstitag
 
-Unser Erstitag findet dieses Jahr am 10. September 2026 statt. Hier werden wir euch über das Studium an der Fachhochschule Dortmund, verschiedene weitere Angebote für Studierende und alles weitere Wissenswerte informieren.
+Unser Erstitag findet dieses Jahr am 11. September 2026 ab 11 Uhr statt. Hier werden wir euch über das Studium an der Fachhochschule Dortmund, verschiedene weitere Angebote für Studierende und alles weitere Wissenswerte informieren.
 
 Im Anschluss an ein gemeinsames Grillen führen wir euch in Gruppen über den Campus und zeigen euch die wichtigsten Orte rund um das Informatik-Gebäude.
 
