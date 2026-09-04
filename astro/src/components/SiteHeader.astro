@@ -1,4 +1,5 @@
 ---
+import SiteSearch from "./SiteSearch.astro";
 import ThemeToggle from "./ThemeToggle.astro";
 
 const { pathname } = Astro.url;
@@ -32,6 +33,7 @@ const isCurrent = (href: string) =>
       }
     </ul>
   </nav>
+  <SiteSearch />
   <ThemeToggle />
 </header>
 

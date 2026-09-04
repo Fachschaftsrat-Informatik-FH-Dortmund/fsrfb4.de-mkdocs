@@ -14,9 +14,15 @@ import { Icon } from "astro-icon/components";
   const STORAGE_KEY = "fsr-theme";
 
   class ThemeToggle extends HTMLElement {
+    // The media query listener lives on window, not on this element, so it
+    // outlives the element unless it is taken down again.
+    #teardown = new AbortController();
+
     connectedCallback() {
       const button = this.querySelector("button");
       if (!button) return;
+
+      const { signal } = this.#teardown;
 
       this.sync(button);
       button.addEventListener("click", () => {
@@ -25,7 +31,7 @@ import { Icon } from "astro-icon/components";
         document.documentElement.dataset.theme = next;
         localStorage.setItem(STORAGE_KEY, next);
         this.sync(button);
-      });
+      }, { signal });
 
       // Someone who never picked a theme should still follow the system when
       // it changes underneath them.
@@ -37,7 +43,11 @@ import { Icon } from "astro-icon/components";
             ? "dark"
             : "light";
           this.sync(button);
-        });
+        }, { signal });
+    }
+
+    disconnectedCallback() {
+      this.#teardown.abort();
     }
 
     sync(button: HTMLButtonElement) {

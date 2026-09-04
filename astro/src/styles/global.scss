@@ -1,6 +1,24 @@
 @use "tokens";
 @use "fonts";
 
+// Pagefind's component UI is themed through --pf-* properties and ships no
+// dark variant. Pointing them at our tokens makes it follow the theme switch.
+// They sit here rather than next to the search box because the dialog renders
+// at the end of the document, outside any wrapper we could put around it.
+:root {
+  --pf-font: var(--fsr-font-body);
+  --pf-background: var(--fsr-color-background);
+  --pf-text: var(--fsr-color-text);
+  --pf-text-secondary: var(--fsr-color-text);
+  --pf-text-muted: var(--fsr-color-text-muted);
+  --pf-border: var(--fsr-color-border);
+  --pf-border-focus: var(--fsr-color-link);
+  --pf-border-radius: var(--fsr-radius);
+  --pf-hover: var(--fsr-color-surface);
+  --pf-skeleton: var(--fsr-color-surface);
+  --pf-outline-focus: var(--fsr-color-link);
+}
+
 *,
 *::before,
 *::after {

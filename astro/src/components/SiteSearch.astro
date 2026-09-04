@@ -1,0 +1,26 @@
+---
+import PagefindConfig from "astro-pagefind/components/PagefindConfig.astro";
+---
+
+{/* Trigger and dialog live in the layout, so the search is reachable from
+    every page — the same place Material put it. The dialog renders itself at
+    the end of the document, which is why its colours are set on :root in
+    global.scss rather than on a wrapper here. */}
+<div class="site-search">
+  <PagefindConfig />
+  <pagefind-modal-trigger class="site-search__trigger"></pagefind-modal-trigger>
+  <pagefind-modal></pagefind-modal>
+</div>
+
+<style lang="scss">
+  .site-search {
+    display: flex;
+    align-items: center;
+  }
+
+  .site-search__trigger {
+    display: flex;
+    align-items: center;
+    color: var(--fsr-color-header-fg);
+  }
+</style>
