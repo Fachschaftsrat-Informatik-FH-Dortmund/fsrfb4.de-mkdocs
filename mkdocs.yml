@@ -31,6 +31,16 @@ theme:
 plugins:
   - privacy
   - search
+  - glightbox:
+      manual: true
+      touchNavigation: true
+      loop: false
+      effect: zoom
+      slide_effect: slide
+      zoomable: true
+      draggable: true
+      background: none
+      shadow: false
 
 markdown_extensions:
   - toc:

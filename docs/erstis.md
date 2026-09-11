@@ -35,8 +35,57 @@ Im Anschluss an ein gemeinsames Grillen führen wir euch in Gruppen über den Ca
 
 Zuletzt geben euch erfahrene Studierende einen Einblick in euren Studiengang.
 !!! tip "Zum Nachlesen"
-    Die Präsentation vom (letzten) Erstitag findet ihr hier: [Sciebo Link](https://fh-dortmund.sciebo.de/s/Pk8m5eH74Z8BnpF)
-    Die Präsi von diesem Jahr wird nach dem Erstitag hochgeladen.
+    Die Folien von unserem Erstitag 2026 könnt ihr euch hier direkt ansehen oder als PDF herunterladen.
+    Die Präsentation vom Vorjahr findet ihr weiterhin hier: [Sciebo Link](https://fh-dortmund.sciebo.de/s/Pk8m5eH74Z8BnpF)
+
+[:material-file-download: Erstipräsi 2026 als PDF (1,6 MB)](files/erstipraesi-2026.pdf){ .md-button .md-button--primary .fsr-button download="Erstipraesi-2026.pdf" }
+
+??? abstract slide-gallery "Aufklappen, um alle 44 Folien anzusehen"
+
+    [![Folie 1](images/erstipraesi-2026/folie-01.jpg){ loading=lazy }](images/erstipraesi-2026/folie-01.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 2](images/erstipraesi-2026/folie-02.jpg){ loading=lazy }](images/erstipraesi-2026/folie-02.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 3](images/erstipraesi-2026/folie-03.jpg){ loading=lazy }](images/erstipraesi-2026/folie-03.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 4](images/erstipraesi-2026/folie-04.jpg){ loading=lazy }](images/erstipraesi-2026/folie-04.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 5](images/erstipraesi-2026/folie-05.jpg){ loading=lazy }](images/erstipraesi-2026/folie-05.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 6](images/erstipraesi-2026/folie-06.jpg){ loading=lazy }](images/erstipraesi-2026/folie-06.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 7](images/erstipraesi-2026/folie-07.jpg){ loading=lazy }](images/erstipraesi-2026/folie-07.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 8](images/erstipraesi-2026/folie-08.jpg){ loading=lazy }](images/erstipraesi-2026/folie-08.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 9](images/erstipraesi-2026/folie-09.jpg){ loading=lazy }](images/erstipraesi-2026/folie-09.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 10](images/erstipraesi-2026/folie-10.jpg){ loading=lazy }](images/erstipraesi-2026/folie-10.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 11](images/erstipraesi-2026/folie-11.jpg){ loading=lazy }](images/erstipraesi-2026/folie-11.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 12](images/erstipraesi-2026/folie-12.jpg){ loading=lazy }](images/erstipraesi-2026/folie-12.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 13](images/erstipraesi-2026/folie-13.jpg){ loading=lazy }](images/erstipraesi-2026/folie-13.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 14](images/erstipraesi-2026/folie-14.jpg){ loading=lazy }](images/erstipraesi-2026/folie-14.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 15](images/erstipraesi-2026/folie-15.jpg){ loading=lazy }](images/erstipraesi-2026/folie-15.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 16](images/erstipraesi-2026/folie-16.jpg){ loading=lazy }](images/erstipraesi-2026/folie-16.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 17](images/erstipraesi-2026/folie-17.jpg){ loading=lazy }](images/erstipraesi-2026/folie-17.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 18](images/erstipraesi-2026/folie-18.jpg){ loading=lazy }](images/erstipraesi-2026/folie-18.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 19](images/erstipraesi-2026/folie-19.jpg){ loading=lazy }](images/erstipraesi-2026/folie-19.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 20](images/erstipraesi-2026/folie-20.jpg){ loading=lazy }](images/erstipraesi-2026/folie-20.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 21](images/erstipraesi-2026/folie-21.jpg){ loading=lazy }](images/erstipraesi-2026/folie-21.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 22](images/erstipraesi-2026/folie-22.jpg){ loading=lazy }](images/erstipraesi-2026/folie-22.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 23](images/erstipraesi-2026/folie-23.jpg){ loading=lazy }](images/erstipraesi-2026/folie-23.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 24](images/erstipraesi-2026/folie-24.jpg){ loading=lazy }](images/erstipraesi-2026/folie-24.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 25](images/erstipraesi-2026/folie-25.jpg){ loading=lazy }](images/erstipraesi-2026/folie-25.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 26](images/erstipraesi-2026/folie-26.jpg){ loading=lazy }](images/erstipraesi-2026/folie-26.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 27](images/erstipraesi-2026/folie-27.jpg){ loading=lazy }](images/erstipraesi-2026/folie-27.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 28](images/erstipraesi-2026/folie-28.jpg){ loading=lazy }](images/erstipraesi-2026/folie-28.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 29](images/erstipraesi-2026/folie-29.jpg){ loading=lazy }](images/erstipraesi-2026/folie-29.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 30](images/erstipraesi-2026/folie-30.jpg){ loading=lazy }](images/erstipraesi-2026/folie-30.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 31](images/erstipraesi-2026/folie-31.jpg){ loading=lazy }](images/erstipraesi-2026/folie-31.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 32](images/erstipraesi-2026/folie-32.jpg){ loading=lazy }](images/erstipraesi-2026/folie-32.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 33](images/erstipraesi-2026/folie-33.jpg){ loading=lazy }](images/erstipraesi-2026/folie-33.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 34](images/erstipraesi-2026/folie-34.jpg){ loading=lazy }](images/erstipraesi-2026/folie-34.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 35](images/erstipraesi-2026/folie-35.jpg){ loading=lazy }](images/erstipraesi-2026/folie-35.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 36](images/erstipraesi-2026/folie-36.jpg){ loading=lazy }](images/erstipraesi-2026/folie-36.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 37](images/erstipraesi-2026/folie-37.jpg){ loading=lazy }](images/erstipraesi-2026/folie-37.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 38](images/erstipraesi-2026/folie-38.jpg){ loading=lazy }](images/erstipraesi-2026/folie-38.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 39](images/erstipraesi-2026/folie-39.jpg){ loading=lazy }](images/erstipraesi-2026/folie-39.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 40](images/erstipraesi-2026/folie-40.jpg){ loading=lazy }](images/erstipraesi-2026/folie-40.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 41](images/erstipraesi-2026/folie-41.jpg){ loading=lazy }](images/erstipraesi-2026/folie-41.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 42](images/erstipraesi-2026/folie-42.jpg){ loading=lazy }](images/erstipraesi-2026/folie-42.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 43](images/erstipraesi-2026/folie-43.jpg){ loading=lazy }](images/erstipraesi-2026/folie-43.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
+    [![Folie 44](images/erstipraesi-2026/folie-44.jpg){ loading=lazy }](images/erstipraesi-2026/folie-44.jpg){ .glightbox data-type="image" data-gallery="erstipraesi-2026" }
 
 ## Vorkurse (nicht von uns Organisiert)
 Vorkurse sind super dafür geeignet alles wissen nochmal aufzufrischen. Außerdem lernt man so sehr einfach neue Freunde an der FH kennen. Nehmt sie deswegen auf jeden Fall wahr! _(Ich konnte bei den Vorkursen viele Freundschaften knüpfen die mich bis heute begleiten. ALSO GEHT HIN!!11elf!1! -Tobi)_ 
