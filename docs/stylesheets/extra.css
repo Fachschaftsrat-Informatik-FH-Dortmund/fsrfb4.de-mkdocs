@@ -37,3 +37,31 @@ p {
   text-align: left !important;
   hyphens: none !important;
 }
+
+.md-typeset details.slide-gallery > p {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 0.6rem;
+}
+
+.md-typeset details.slide-gallery a,
+.md-typeset details.slide-gallery img {
+  display: block;
+  width: 100%;
+  margin: 0 !important;
+  line-height: 0;
+}
+
+.md-typeset details.slide-gallery img {
+  aspect-ratio: 16 / 9;
+  height: auto;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 4px;
+  cursor: zoom-in;
+}
+
+@media (max-width: 700px) {
+  .md-typeset details.slide-gallery > p {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
