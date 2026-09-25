@@ -13,11 +13,10 @@ Kontakt zur Ersti-Orga 2026: [informatik@fasta.fh-dortmund.de](mailto:informatik
      
 ## Veranstaltungsplan
 Aboniert gerne zusätzlich unseren Kalender welcher auf [Aktuelles](https://fsrfb4.de/aktuelles/) zu finden ist :D
-!!! warning "geänderter Termin für den Erstitag"
-    In einer vorherigen Version stand ein anderes Datum, wir mussten den Erstitag jedoch verschieben! 11.09.2026 ab 11 Uhr ist richtig!
+
 | Datum       | Event              | Uhrzeit       | Ort                  | Beschreibung |
 |-------------|--------------------|---------------|----------------------|--------------|
-| 11.09.      | Erstitag           | ab 11 Uhr     | [A.E.01](https://wiki.fsrfb4.de/books/erstiheft/page/raume-finden){target="_blank"}     | Infos zum Studium, Grillen, Campusführung |
+| 28.09.      | Begrüßung Fachbereich (Bachelor & Master) | ab 10 Uhr | siehe Anhang | Begrüßung des Fachbereichs sowie Einführungs- und Informationsveranstaltungen |
 | 28.09.      | Spieleabend        | 16–22 Uhr     | Treffpunkt Foyer     | Abend mit Brett- und Kartenspielen sowie Pizza-Snack |
 | 29.09.      | Campusolympiade    | ab 14 Uhr     | Treffpunkt Foyer     | Teamwettkämpfe rund um den Campus |
 | 29.09.      | Karaoke            | ab 18 Uhr     | Treffpunkt Foyer     | Karaoke-Abend für alle Gesangsfreudigen |
