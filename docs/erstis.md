@@ -18,13 +18,13 @@ Aboniert gerne zusätzlich unseren Kalender welcher auf [Aktuelles](https://fsrf
 | Datum       | Event              | Uhrzeit       | Ort                  | Beschreibung |
 |-------------|--------------------|---------------|----------------------|--------------|
 | 11.09.      | Erstitag           | ab 11 Uhr     | [A.E.01](https://wiki.fsrfb4.de/books/erstiheft/page/raume-finden){target="_blank"}     | Infos zum Studium, Grillen, Campusführung |
-| 28.09.      | Spieleabend        | 16–22 Uhr     | [A.E.03](https://wiki.fsrfb4.de/books/erstiheft/page/raume-finden){target="_blank"}                | Abend mit Brett- und Kartenspielen sowie Pizza-Snack |
+| 28.09.      | Spieleabend        | 16–22 Uhr     | Treffpunkt Foyer     | Abend mit Brett- und Kartenspielen sowie Pizza-Snack |
 | 29.09.      | Campusolympiade    | ab 14 Uhr     | Treffpunkt Foyer     | Teamwettkämpfe rund um den Campus |
-| 29.09.      | Karaoke            | ab 18 Uhr     | Innolab/[B.E.23](https://wiki.fsrfb4.de/books/erstiheft/page/raume-finden){target="_blank"}               | Karaoke-Abend für alle Gesangsfreudigen |
-| 30.09.      | Filmenachmittag    | ab 13 Uhr     |[A.E.01](https://wiki.fsrfb4.de/books/erstiheft/page/raume-finden){target="_blank"}               | inkl. Popcorn und Nachos gegen kleinen Preis |
+| 29.09.      | Karaoke            | ab 18 Uhr     | Treffpunkt Foyer     | Karaoke-Abend für alle Gesangsfreudigen |
+| 30.09.      | Filmenachmittag    | ab 13 Uhr     | Treffpunkt Foyer     | inkl. Popcorn und Nachos gegen kleinen Preis |
 | 30.09.      | Kneipentour        | ab 16 Uhr     | Treffpunkt Foyer     | Kneipen in Dortmund gemeinsam erkunden |
 | 01.10.      | Flunken im Westpark| ab 15 Uhr     | Treffpunkt [Westpark](https://www.google.de/maps/place/Westpark/@51.5098123,7.4479914,827m/data=!3m1!1e3!4m6!3m5!1s0x47b919c27c5ddcd1:0x8ee0f94751ec13fe!8m2!3d51.5096797!4d7.448644!16s%2Fg%2F121fwjdh!5m1!1e2?entry=ttu&g_ep=EgoyMDI2MDgxMi4wIKXMDSoASAFQAw%3D%3D){target="_blank"}  | Outdoor-Spiel "Flunkyball" im Westpark |
-| 02.10.      | Gamingabend        | 16–22 Uhr     | Innolab/[B.E.23](https://wiki.fsrfb4.de/books/erstiheft/page/raume-finden){target="_blank"}               | Konsolen- und PC-Gaming in einem comfy High-Tech Raum |
+| 02.10.      | Gamingabend        | 16–22 Uhr     | Treffpunkt Foyer     | Konsolen- und PC-Gaming in einem comfy High-Tech Raum |
 
 
 ## Erstitag
